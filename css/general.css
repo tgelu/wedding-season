@@ -52,6 +52,12 @@ article aside.footnotes, .article aside.footnotes {
 	border-top: 1px solid #e2e2e2;
 	color: #808080;
 }
+
+blockquote {
+	font-style: italic;
+	color: #808080;
+}
+
 /* end article */
 
 /* BLOG POSTS */
@@ -235,7 +241,7 @@ h3, h4, h5, h6 {
 }
 
 em {
-    font-family: 'Lora', serif;
+	font-family: 'Lora', serif;
 	font-weight: 600;
 }
 
