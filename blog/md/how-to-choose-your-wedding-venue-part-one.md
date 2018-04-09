@@ -1,8 +1,8 @@
 # How to choose your wedding venue. Part one.
 
-## Matters to consider
-
 ![Outdoor wedding setting with wooden tables in inner court of old building](https://www.rockmywedding.co.uk/wp-content/uploads/2018/04/samuel-docker-photography-21_5-1000x667.jpg "Outdoor wedding in southern France")
+
+## Matters to consider
 
 Today, on this beautiful spring day I am taking time to discuss how to choose the wedding venue.
 Choosing the venue is considered (by the majority of wedding professionals and brides) the most time consuming and stressful part of wedding planning.
@@ -90,7 +90,7 @@ You can have the trendiest wedding in the backyard of your childhood home, but m
 So as you well perceived by now, planning a wedding is all about prioritising, you will always have more than two options, and you will always have to weigh their importance.
 
 This one word makes wedding planning difficult for brides: **prioritising**.
-That's why I am [here](http://weddingseason.events/get-in-touch.html), and why there is such a thing as a *wedding planning industry*.
+That's why [I am here](http://weddingseason.events/get-in-touch.html), and why there is such a thing as a *wedding planning industry*.
 
 Now that we have laid down the groundwork we can pursue in my next blog post the smaller matters concerning style for your venue.
 
