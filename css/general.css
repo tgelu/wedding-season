@@ -249,6 +249,10 @@ p {
 	font-size: 1.3rem;
 }
 
+p em {
+	font-size: 1.2rem
+}
+
 i[title], abbr[title] {
 	font-style: italic;
 	border-bottom: 1px dashed #e2e2e2;
