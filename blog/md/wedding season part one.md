@@ -2,7 +2,7 @@
 
 ![Outdoor wedding in Southern France](https://www.rockmywedding.co.uk/wp-content/uploads/2018/04/samuel-docker-photography-21_5-1000x667.jpg)
 
-Today, on this beautiful spring day I am taking time to discuss how to choose the wedding venue. 
+Today, on this beautiful spring day I am taking time to discuss how to choose the wedding venue.
 
 Choosing the venue is considered (by the majority of wedding professionals and brides) the most time consuming and stressful part of wedding planning. 
 
@@ -44,7 +44,7 @@ Now every bride gets to choose according to their couples dynamic.
 
 And so there is hope to book your favourite venue and on your appointed date. 
 
-*Date vs. Location issue*
+## Date vs. Location issue
 
 Another matter that arises to think long and hard what is more important to you: the date, maybe you always dreamed of a romantic summer
 wedding or ar a magical winter wonderland, and that weighs more than the location. 
@@ -68,7 +68,7 @@ For me, the season was far more important than the day itself or the location.
  
  First will be tackling the big three question, and in the next blog post, I will address the possible themes, the details, the decor. 
   
-1. So first answer this: **indoor or outdoor**?
+ ### So first answer this: **indoor or outdoor**?
   
   The great outdoor offers an abundance of [stunning natural landscapes](https://greenweddingshoes.com/25-jaw-dropping-spots-that-will-make-you-want-to-elope/), it provides a beautiful backdrop, so you don't need to invest much in decor in this case.
   Besides it makes for such a fun and memorable way of celebrating, in contrast with the more formal fun of a ballroom.
@@ -78,7 +78,7 @@ For me, the season was far more important than the day itself or the location.
   
   ![Wedding couple in the rain holding an umbrella](https://junebugweddings.com/wedding-blog/wp-content/uploads/2018/02/artistic-aspen-wedding-mountains-lynn-britt-cabin-24-700x1061.jpg)
 
-2. The next question is: are you leaning towards **the countryside or the big city**?
+ ### The next question is: are you leaning towards **the countryside or the big city**?
 
 Should it be a barn, manor house, or a castle for the expensive tastes, or a loft, a boutique hotel in the inner busy streets of a city?
 Do you want open space and a natural landscape, lawn games, family-inclined festivities or an edgy, [twisty vibe feel for the urbanite](https://junebugweddings.com/wedding-blog/effortless-urban-seattle-wedding-at-axis-pioneer-square/) friends?
@@ -95,16 +95,16 @@ So transportation and accommodation are the pain points. Does your chosen venue 
  And another thing to ponder is if an exquisite, niche space, like an art gallery, is suitable for everyone.
  Some of the older members of your family will feel out of their comfort zone.
  
-3. And the last big questions is: do you want a **large affair or an intimate bash**?
+ ### And the last big questions is: do you want a **large affair or an intimate bash**?
  
- Will you invite your second cousin and her plus one or do you prefer [just your closest of kin](https://junebugweddings.com/wedding-blog/55-person-miami-wedding-proves-intimate-day-can-majorly-gorgeous/)? 
+Will you invite your second cousin and her plus one or do you prefer [just your closest of kin](https://junebugweddings.com/wedding-blog/55-person-miami-wedding-proves-intimate-day-can-majorly-gorgeous/)? 
  You can have the trendiest wedding in the backyard of your childhood home, but most probably it can't host all of the 200 people on your list.
  
- So as you well perceived by now, planning a wedding is all about prioritising, you will always have more than two options, and you will always have to weigh their importance. 
+So as you well perceived by now, planning a wedding is all about prioritising, you will always have more than two options, and you will always have to weigh their importance. 
 
 This one word makes wedding planning difficult for brides: **prioritising**. 
  
- That's why I (and my fellow wedding planners) are [here](http://weddingseason.events/get-in-touch.html). 
+That's why I (and my fellow wedding planners) are [here](http://weddingseason.events/get-in-touch.html). 
 How is your venue hunting going? Have you found it? Do you have any questions? I am always on [Facebook](https://www.facebook.com/weddingseason.events/), shoot me a message. 
 
 Until next time, 
