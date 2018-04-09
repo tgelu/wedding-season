@@ -43,7 +43,7 @@ Either **the date**: maybe you always dreamed of a romantic summer wedding or a 
 Or **the location**: maybe you want to get married where your parents got married and honour them in this way. Or you want to say *I dos* at the inn where you lodged when your fiancee proposed.
 
 For me, the season was far more important than the day itself or the location.
-I am a very weather sensitive person, and I was sure what I wanted: vibrant colours, the sun still shining, and the breezy air.
+I am a very weather sensitive person, and I was sure of what I wanted: vibrant colours, the sun still shining, and the breezy air.
 That meant autumn, middle of September.
 
 Another essential issue that would inevitably arise when discussing the venue is your wedding theme.
