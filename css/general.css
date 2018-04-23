@@ -26,7 +26,7 @@ article, .article {
 	padding-bottom: 3rem;
 	
 	font-size: 1.35rem;
-    line-height: 1.5em;
+	line-height: 1.5em;
 	text-align: left;
 }
 
@@ -56,6 +56,21 @@ article aside.footnotes, .article aside.footnotes {
 blockquote {
 	font-style: italic;
 	color: #808080;
+}
+
+.divider {
+	width: 1.5rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	display: block;
+	margin: auto;
+}
+
+.divider--end {
+	width: 8rem;
+	padding-top: 5rem;
+	display: block;
+	margin: auto;
 }
 
 /* end article */
@@ -252,7 +267,8 @@ em {
 }
 
 p {
-	font-size: 1.3rem;
+	font-size: 1.35rem;
+	line-height: 1.5em;
 }
 
 p em {
