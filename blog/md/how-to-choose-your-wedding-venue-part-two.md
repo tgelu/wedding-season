@@ -116,11 +116,11 @@ Photo by [Jami Laree](http://www.jamilaree.com/)
 
 ### [Boho](http://www.boho-weddings.com/2018/04/11/bohemian-midsummer-nights-dream-rustic-elegance-swedish-wedding-by-aase-pouline/), Indie, Hipster, Moody
 
-![A flower and Pampass grass wooden arch](https://i.pinimg.com/564x/8a/50/66/8a506639a6e161485f5ef68197adb37b.jpg "Flowers and pampass grass wedding arch)
+![A flower and Pampass grass wooden arch](https://i.pinimg.com/564x/8a/50/66/8a506639a6e161485f5ef68197adb37b.jpg "Flowers and pampass grass wedding arch")
 
 Photo by [Koby Brown](http://kobybrown.com/)
 
-![Peacock chairs surrounded by flowers](https://i.pinimg.com/564x/78/7b/b5/787bb599951fd697d64e14d3786b4073.jpg "Peacock Chairs)
+![Peacock chairs surrounded by flowers](https://i.pinimg.com/564x/78/7b/b5/787bb599951fd697d64e14d3786b4073.jpg "Peacock Chairs")
 
 Photo by [Sanaz Photography](http://sanazphotography.com/)
 
