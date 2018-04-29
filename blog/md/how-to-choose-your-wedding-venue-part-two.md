@@ -14,18 +14,17 @@ So, throughout this post I will draw a layout of the most distinguished wedding 
 To bring across this very difficult task, I will create a mood board and share heaps of pictures so you get the feel rather than give you a list
 of items to buy, even though I will do that as well. :satisfied:
 
-It is a challenging task- accurately defining a theme or set its boundaries because frequently elements of decor overlap 
-and often sometimes, a specific theme is a polished version (over many wedding seasons) or an extension of an overarching atmosphere.
+It is a challenging task - accurately defining a theme or set its boundaries because frequently elements of decor overlap.
+Often, a specific theme is a polished version (over many wedding seasons) or an extension of an overarching atmosphere.
 
-My advice is choose a **feel**, a frame if you will and then customize as much as possible, add yourselves in the picture with bits and pieces of decor and experiences. 
-Now, I will try to pinpoint the key elements of the the most known (and used) themes and the rest is 
-and should be **you**.
+My advice is choose a **feel**, a frame if you will and then customize it as much as possible, add yourselves in the picture with bits and pieces of decor and experiences. 
+Now, I will try to pinpoint the key elements of the the most known (and used) themes and the rest is and should be **you**.
 
-The venues could be split in two: the conventional ones, that we know for years and have been widely used, such as castles, country houses, or the famous (renovated) barns and lodges. We can include here the private houses, ranches or farms.
+The venues could be split into two categories: the conventional ones, that have known for years, such as castles, country houses, the famous renovated barns and lodges, private houses, ranches or farms.
 
-Then, we have the [uncoventional](https://junebugweddings.com/wedding-blog/unconventional-museum-life-science-wedding-pulled-inspiration-unique-venue/) ones, which the creatives of the day made trendy, these are becoming widely spread and booked. 
+Then, we have the [uncoventional](https://junebugweddings.com/wedding-blog/unconventional-museum-life-science-wedding-pulled-inspiration-unique-venue/) venues, which the creatives of the day made trendy, these are becoming widely spread and booked.
 Into this category fall: museums, art galleries, the conservatories, repurposed buildings. 
-I know a couple that got married in a repuposed train station, col, right, but that pretty much set up the theme. The original train tracks were embelishing the floor and small details were a integrated part of decor, such as the station's clock, the rough edges of the space or the exposed red brick of the walls. Quaint and absoultely unique and lovely.
+I know a couple that got married in a repurposed train station which pretty much set up the theme. The original train tracks were embelishing the floor and the details of the place were integrated as part of the decor: objects such as the station's clock or the rough edges of the space or the exposed red brick of the walls. I was quaint and absoultely lovely.
 
 Coming back, the list continues, historic libraries can be an alternative place to get hitched, also the theaters or your favorite quirky restaurant in town. I beleive there's a perfect venue for every couple's aestethic needs.
 
@@ -47,7 +46,7 @@ Photo by [Emily Delamater](http://emilydelamaterphotography.com/)
 - General feel: this theme has a royal aspect with clean cuts, pale colours, elegant flowers in matching tones, tall flower arrangements and crystal glassware. It is advisable to not have any decor elements that stand-out but rather make sure that all pieces work well together and complement each other. This theme should remind you of the old, aristrocratic ballrooms. 
 It usually has a well defined dress-code, a sit-down meal and I would say this is the most formal type of nuptials you can plan. 
 
-2. Vintage glam, art deco, 1920's
+2. Vintage glam, art-deco, 1920's
 
 ![Wedding cake with gold touches and big flowers](https://www.bridalguide.com/sites/default/files/slideshow-images/269-158512.jpg "Gold and Bold Wedding Cake")
 
@@ -57,7 +56,7 @@ Photo by [Ashley Cook Photography](http://ashleycookphotography.com/)
 
 Photo by [Gina Meola Photography](http://ginameola.mbwolf.com/)
 
-- Venue recommendation: any conventional space will do. But to do proper justice to the [Roaring 20s](https://ruffledblog.com/tag/carla-atley-photography/), your venue should ring of the beginnings of Waldorf Astoria or The Savoy. (high ceilling and art deco) It doesn't have to be a hotel though, you can bring the glamour and bedazzelement in any of the above mentioned spaces.
+- Venue recommendation: any conventional space will do. But to do proper justice to the [Roaring 20s](https://ruffledblog.com/tag/carla-atley-photography/), your venue should ring of the beginnings of Waldorf Astoria or The Savoy. It doesn't have to be a hotel though, you can bring the glamour and bedazzelement in any of the above mentioned spaces.
 - General feel: Jay Gatsby's infamous parties; gold touches, monogramed items (the must have tier cake could be one of them, napkins, or even plates), statement flower arrangements, dark, moody, metallic colours, play with lighing.
 If you want to go full Fitzgerald, follow the 20's dress-code, or else your formal wear with some glitz will do. 
 A jazz band would definitively create the desired atmosphere.
@@ -73,7 +72,7 @@ Photo by [Hay Wood Jones](http://www.haywoodjonesphotography.co.uk/)
 Photo by [Mary Wyar Phtography](http://marywyarphotography.com/)
 
 - Venue Recommendation: country house, an up-to-date barn, a tipi, or a backyard.
-- General feel: informal, laid back kind of celebration. This comes with lots of charity shops itemes, like doilies and tableware, porcelain  figurines, old bottles of pop or cereal, as decor. And the must have piece: a record player. Add pops of color,a tea lenght wedding dress, polka dots, pin-up hair-styles and that's your retro theme wedding. Keep in mind that every decade has its charm though. 
+- General feel: informal, laid back kind of celebration. This comes with lots of charity shops itemes, like doilies and tableware, porcelain figurines, old bottles of pop or cereal. And the must have piece: a record player. Add pops of color, a tea length wedding dress, polka dots, pin-up hair-styles and that's your retro theme wedding. Keep in mind that every decade has its charm.
 
 4. Shabby-chic
 
@@ -87,7 +86,7 @@ Photo by [Mia Photography](http://www.miaphotography.com/)
 
 
 - Venue Recommendation: country house, a lodge, a garden or backyard.
-- General feel: natural look, intimate, personal with a homey atmosphere, it is a family celebration, with mostly DIY and handmade touches. Infuse antique elements into your very own home decor accesories like cute signage, old valises, a typewriter, mismatched vases, you can even use tea cups and saucers for the flower arrangements. Frame it all together with lots of bunting, colorful and messy bouquets and plants. Food stations and buffets will be a good add-on. Does this remind you of a fancy garden party because that's the theme's goal.
+- General feel: natural look, intimate, personal with a homey atmosphere, it is a family celebration, with mostly DIY and handmade touches. Infuse antique elements into your very own home decor accesories like cute signage, old valises, a typewriter, mismatched vases, you can even use tea cups and saucers for the flower arrangements. Frame it all together with lots of bunting, colorful and messy bouquets and plants. Food stations and buffets will be a good add-on. Does this remind you of a fancy garden party? That's the theme's goal.
 
 5. Rustic, [country chic](http://www.boho-weddings.com/2018/04/17/handmade-rustic-barn-wedding-in-sweden-by-jana-julian/)
 
@@ -100,11 +99,9 @@ Photo by [Kristin Sweeting](https://www.kristinsweeting.com/)
 Photo by [Nessa K. Photography](http://www.nessakphotography.com/)
 
 - Venue Recommnendation: barns, lodges, cabins, farms, anything surrounded by open space and natural landscapes.
-- General feel: fun, relaxed, lawn games kind of festivities. You can either opt for a rougher look or add some finer touches to it in order to glam it up a bit (such as mettalic elements, neater tablescapes, a mirror seating chart etc.) The must haves though are: reclaimed wood, or anything reclaimed actually: wattering canes, frames, baskets, ladders. Add on everything garden/wild flowers, a great mix of it with a messy look. Focus on local produce, hearty meals, like family's favorites and food and drinks stations galore. To really bring it home add  fairy lights, blanquets, quilts, hay, wine barrels. The outfits can be informal: tweed, tartan, gingham.
-
+- General feel: fun, relaxed, lawn games kind of festivities. You can either opt for a rougher look or add some finer touches to it in order to glam it up a bit (such as mettalic elements, neater tablescapes, a mirror seating chart etc.). The must haves though are: reclaimed wood, or anything reclaimed actually, wattering canes, frames, baskets, ladders. Add everything garden/wild flowers, a great mix of it with a messy look. Focus on local produce, hearty meals, like family's favorites and food and drinks stations galore. To really bring it home add fairy lights, blanquets, quilts, hay, wine barrels. The outfits can be informal: tweed, tartan, gingham.
 
 6. [Urban](https://greenweddingshoes.com/laid-back-australian-warehouse-wedding-jen-luke/), edgy, modern.
-
 
 ![Wedding reception Space with white chairs](https://greenweddingshoes.com/elegantly-emerald-a-modern-take-on-a-vintage-inspired-wedding/ "Modern Wedding Reception Space")
 
@@ -114,12 +111,10 @@ Photo by [We are the Rowlands](http://wearetherowlands.com/)
 
 Photo by [Jami Laree](http://www.jamilaree.com/)
 
-
-- Venue recommendations: any unconventional venue will do. Think: industrial loft, Music and Arts Center, libraries.
-- General feel: alternative, contemporan, fashion, and all kinds of statements, vibrant and dark hues, metallic elements (the signage or the chairs), marble and copper combos, barebulb lighting, exposed brick, velvet furniture. Minimalist styling (Scandinavian decor- fine lines, geometric shapes). Gourme dinning. Clothing wise: a modern take on the wedding attire: jumpsuit, capes.
+- Venue recommendations: any unconventional venue will do. Think industrial loft, music and arts Center, libraries.
+- General feel: alternative, contemporary, fashionable. It could be highlighed by vibrant or dark hues, metallic elements (the signage or the chairs), marble and copper combos, barebulb lighting, exposed brick, velvet furniture, minimalist styling (Scandinavian decor - fine lines, geometric shapes). Think gourmet dining. Clothing wise: a modern take on the wedding attire: jumpsuit, capes.
 
 7. [Boho](http://www.boho-weddings.com/2018/04/11/bohemian-midsummer-nights-dream-rustic-elegance-swedish-wedding-by-aase-pouline/), Indie, Hipster, Moody
-
 
 ![A flower and Pampass grass wooden arch](https://i.pinimg.com/564x/8a/50/66/8a506639a6e161485f5ef68197adb37b.jpg "Flowers and pampass grass wedding arch)
 
@@ -130,10 +125,8 @@ Photo by [Koby Brown](http://kobybrown.com/)
 Photo by [Sanaz Photography](http://sanazphotography.com/)
 
 - Venue Recommendation: the outdoors (desert, woodland, garden) or country houses, golf clubs or repurposed buildings with open spaces 
-- General Fee: free-spirited, authentic, wild and adventurous. The style can be either whimsy, colorful with garden vibes or it can be moody, with darker tones and modern accents. Needed pieces: macrame, flower arches walls, branch tipis, flower crowns for everyone, carpets. And at the other side we have: pampas grass, peacock chairs, feathers or dreamcatchers and any flowy elements.  Always breathtaking dresses (lace, intricate patterns, low backs) and it comes with the opportunity for colorful men wear. (yee)
+- General feel: free-spirited, authentic, wild and adventurous. The style can be either whimsy, colorful with garden vibes or moody with darker tones and modern accents. Needed pieces: macrame, flower arches walls, branch tipis, flower crowns, carpets. And on the other side we have: pampas grass, peacock chairs, feathers or dreamcatchers and any flowy elements. Always breathtaking dresses (lace, intricate patterns, low backs) and it comes with the opportunity for colorful men wear. (yee)
 
 Of course all these are just some general lines and it is good to have them in the back of your head when you scout for venues, but always personalize. Add a twist to any theme or style, or even better create your own. 
 
-Until the next time.
-
-
+Until next time.
