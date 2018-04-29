@@ -1,4 +1,3 @@
-
 # Wedding Venues and their respective themes
 
 Now that you, hopefully, got a [clearer idea](http://weddingseason.events/blog/how-to-choose-your-wedding-venue-part-one.html) of what you would like your wedding day to represent- a family bash in the country, 
