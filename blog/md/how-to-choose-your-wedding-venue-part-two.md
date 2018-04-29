@@ -80,7 +80,7 @@ Photo by [Mary Wyar Phtography](http://marywyarphotography.com/)
 
 Photo by [Zelo Photography](http://www.zelophotoblog.com/)
 
-![Flowers in a cup and a saucer on a table](https://whimsicalwonderlandweddings.com/wp-content/uploads/2016/11/RhiannaScott_mia-photography-012.jpg "Shabby-Chic Centerpiece)
+![Flowers in a cup and a saucer on a table](https://whimsicalwonderlandweddings.com/wp-content/uploads/2016/11/RhiannaScott_mia-photography-012.jpg "Shabby-Chic Centerpiece")
 
 Photo by [Mia Photography](http://www.miaphotography.com/)
 
