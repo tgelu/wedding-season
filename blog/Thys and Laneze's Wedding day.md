@@ -1,3 +1,4 @@
+Today I am happy to kick-start a new feature of this blog, that I hope you will find helpful and fun, aka. real weddings features. I am happy to kick-start a new feature of the blog, where I will share real weddings with you. I hope you will this helpful and fun. 
 
 I am an avid reader of love stories, and so I read quite a few blog posts that feature real weddings, daily, that's where I get my inspiration from,
 and that's how I keep updated with the industry trends. I believe that brides are a creative form in themselves, they are able to come up with such magnificent ideas to underline their couples' uniqueness and dynamic. I have read about wedding table runners made out of book pages due to the huge passion of the bride for reading. I have seen tartan napkins to bring about the Scottish
