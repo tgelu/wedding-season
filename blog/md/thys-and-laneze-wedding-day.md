@@ -1,6 +1,6 @@
-# Thys and Laneze's Wedding Day
+# Thys and Laneze's South African Outback Wedding
 
-![Newlyweds holding hands walking in safari woods](/img/blog/thys-and-laneze-wedding-day/thys-and-laneze.jpg "Thys and Laneze in safari woods")
+![Newlyweds holding hands walking in bushveld woods](/img/blog/thys-and-laneze-wedding-day/thys-and-laneze.jpg "Thys and Laneze in bushveld woods")
 
 Today I am happy to kick-start a new feature of this blog, that I hope you will find helpful and fun: real weddings features.
 
@@ -17,11 +17,11 @@ Their story started with a message on a paper when they were in the same class i
 
 ![Wedding ceremony under marula tree in South Africa](/img/blog/thys-and-laneze-ceremony-under-tree.jpg "Thys and Laneze's wedding ceremony")
 
-Their wedding day was actually a weekend-long bash with the closest friends and their families in South Africa. Part of the festivities was a barbeque (as I have heard to grill is an active part of the South African identity), a trip in the safari and a breakfast in a cave. The main idea behind the day was to have a laid-back celebration, as natural as possible. The day was a beautiful mix between their South African native country and Danish hygge, Denmark being their country of residence, which they so much love.
+Their wedding day was actually a weekend-long bash with the closest friends and their families in South Africa. Part of the festivities was a barbeque (as I have heard to grill is an active part of the South African identity), a trip in the [bushveld](https://en.wikipedia.org/wiki/Bushveld) and a breakfast in a cave. The main idea behind the day was to have a laid-back celebration, as natural as possible. The day was a beautiful mix between their South African native country and Danish hygge, Denmark being their country of residence, which they so much love.
 
-![Newlyweds kissing in safari landscape](/img/blog/thys-and-laneze-kissing.jpg "Thys and Laneze kissing")
+![Newlyweds kissing in bushveld landscape](/img/blog/thys-and-laneze-kissing.jpg "Thys and Laneze kissing")
 
-Thys, the groom, always wanted to get married under a tree, so Laneze found the perfect spot for their wedding ceremony, a majestic Marula also from which seeds were gathered to stand for confetti. An African inspired song was Laneze's entrance (["We found love"](https://www.youtube.com/watch?v=0g9poWKKpbU) by Lindsey Stirling) and craft beer and dim lights made it all very [hyggeligt](https://en.wikipedia.org/wiki/Hygge?oldformat=true). You can see for yourselves, because what I have is one absolutely lovely stop-motion that has the magic ability to immerse you in this nature-filled wedding weekend. This was made by the talented photographer: [Who's Annah](https://www.whosannah.com/).
+Thys, the groom, always wanted to get married under a tree, so Laneze found the perfect spot for their wedding ceremony, a majestic Marula also from which seeds were gathered to stand for confetti. An African inspired song was Laneze's entrance (["We found love"](https://www.youtube.com/watch?v=0g9poWKKpbU) by Lindsey Stirling) and craft beer and dim lights made it all very [hyggeligt](https://en.wikipedia.org/wiki/Hygge). You can see for yourselves, because what I have is one absolutely lovely stop-motion that has the magic ability to immerse you in this nature-filled wedding weekend. This was made by the talented photographer: [Who's Annah](https://www.whosannah.com/).
 
 Here's the youtube video:
 
