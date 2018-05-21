@@ -342,3 +342,20 @@ a.a--highlighted {
 h1 + .author, .h1 + .author {
 	margin-top: -1rem;
 }
+
+textarea {
+	width: 100%;
+	border: 2px solid #d0d0d0;
+	border-radius: 3px;
+	padding: 0.5rem 1rem;
+	line-height: 1.5rem;
+	font-size: 1.25rem;
+	font-family: sans-serif;
+}
+
+.submit-form label {
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+
