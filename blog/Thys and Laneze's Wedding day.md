@@ -1,8 +1,11 @@
+# Thys and Laneze's Wedding Day
+
 Today I am happy to kick-start a new feature of this blog, that I hope you will find helpful and fun: real weddings features.
 
 I am an avid reader of love stories, and so I read quite a few blog posts that feature real weddings, daily. That's where I get my inspiration from. And that's how I keep updated with the industry trends. I believe that brides are a creative form in themselves, they are able to come up with such magnificent ideas to underline their couples' uniqueness and dynamic. I have read about wedding table runners made out of book pages due to the huge passion of the bride for reading. I have seen tartan napkins to bring about the Scottish
 heritage of the groom, and the list can continue and it will. Here. I will give way to brides and other creatives, wedding planners and vendors to inspire you and stir the creative bone in all of us.
 
+## The love story
 Today I have Thys and Laneze's love story and planning adventure to share with you, and I am quite sure you will love it as much as I do.
 
 Their story started with a message on a paper when they were in the same class in the fourth grade, a note in which with a funny rhyme Thys asked Laneze to be his girlfriend. On it, Laneze crossed the box for "No" and they remained friends happily ever after. Only so that after many years, a stunning photo of Lanze on Facebook and what I hear quite a cheeky phone call from Thys, they started dating. This love story lived on 2 continents. Thys was living at that time In Denmark and Laneze in South Africa. The story was made complete on a beautiful day in May 2017.
@@ -14,8 +17,8 @@ Thys, the groom, always wanted to get married under a tree, so Laneze found the 
 Here's the youtube video:
 
 The list of vendors:
-Venue: [Monate Lodge](http://www.monatelodge.com/)
-Phototgrapher: [Who's Annah](https://www.whosannah.com/)
-Hair: Rolanda Rossouw - Euphoria, Pretoria
-Make up: Wilmien Klein - Berrylicious, Potchefstroom
-Wedding Coordinator: [Jeanet Lenore](http://www.jeanetlenore.com/)
+- Venue: [Monate Lodge](http://www.monatelodge.com/)
+- Phototgrapher: [Who's Annah](https://www.whosannah.com/)
+- Hair: Rolanda Rossouw - Euphoria, Pretoria
+- Make up: Wilmien Klein - Berrylicious, Potchefstroom
+- Wedding Coordinator: [Jeanet Lenore](http://www.jeanetlenore.com/)
