@@ -27,7 +27,7 @@ Here's the youtube video:
 
 The list of vendors:
 - Venue: [Monate Lodge](http://www.monatelodge.com/)
-- Phototgrapher: [Who's Annah](https://www.whosannah.com/)
+- Photographer: [Who's Annah](https://www.whosannah.com/)
 - Hair: Rolanda Rossouw - Euphoria, Pretoria
 - Make up: Wilmien Klein - Berrylicious, Potchefstroom
 - Wedding Coordinator: [Jeanet Lenore](http://www.jeanetlenore.com/)
