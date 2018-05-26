@@ -313,9 +313,25 @@ i[title], abbr[title] {
 	margin: 0;
 	padding-top: 0.8rem;
 	padding-bottom: 0.8rem;
+	align-items: center;
 	
 	font-size: 1.4rem;
 	text-shadow: 0px 0px 9px #000000;
+}
+
+.menu > div {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+	.menu {
+		padding: 0;
+	}
+	.menu > div {
+		padding-top: 0.7rem;
+		padding-bottom: 0.7rem;
+	}
 }
 
 .menu  a {
