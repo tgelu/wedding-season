@@ -106,7 +106,7 @@
 				<div class="col-xs-12 col-sm-11 col-md-9 col-lg-8">
 					<h1>Thank you very much for your submission! 😍</h1>
 					<p>We appreciate it, and <em>we promise</em> to do our best in order to produce a high quality post to your credit.</p>
-					<p>We will let you know as soon as we are done! 😀</p>
+					<p>We will let you know as soon as we are done!</p>
 					<img class="divider--end" role="presentation" src="/img/decorations/end-divider.svg"/>
 				</div>
 			</div>
