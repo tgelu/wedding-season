@@ -14,7 +14,7 @@ Here's some advice to help you keep the magic.
 This little practicality is a sure way to look gorgeous all throughout the photo-shoot, ceremony, and party. That you don't sweat and get irritated and exhausted or continuously run to fix your makeup.
 
 ![Sleevless Wedding dress with lace and embroidery](/img/blog/wedding-summer-donts/alexandra-wedding-dress-lihi-hod-collection.jpg "Alexandra Dress by Lihi Hod")
-! Sunshine by Olivia Bottega
+![Beautiful young bride wearing puffy wedding dress](/img/blog/wedding-summer-donts/puffy-wedding-dress.jpg "Sunshine. Photo by Olivia Bottega")
 ![Beautiful summer wedding dress by Milla Zwilinger](/img/blog/wedding-summer-donts/milla-zwilinger-wedding-dress.jpg "Milla Zwilinger dress. Photo by Rylee Hitchner via Style Me Pretty")
 
 
