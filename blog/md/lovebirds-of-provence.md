@@ -1,6 +1,6 @@
 # Lovebirds of Provence
 
-I am reading Les Miserables at the moment, yes, not a summer reading. It is actually a tad gloomy. But still, everything I hear now is French, and all I see is cobblestone streets and fields of lavender, so you can imagine the excitement I got when I received this romantic wedding in Provence from [Nicolas Michiels Photography](http://www.photonm.be/ "Nicolas Michiels Homepage").
+I am reading Les Miserables at the moment, yes, not a summer reading. It is actually a tad gloomy. But still, everything I hear now is French, and all I see is cobblestone streets and fields of lavender, so you can imagine the excitement I got when I received this romantic wedding in Provence from [Nicolas Michiels Photography](http://www.nicolasmichiels.be "Nicolas Michiels Homepage").
 
 ![Young newlyweds in olive tree garden](/img/blog/lovebirds-of-provence/lovebirds-of-provence-46.jpg "Lovebirds of Provence")
 
