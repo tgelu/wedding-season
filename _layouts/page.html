@@ -1,0 +1,34 @@
+---
+layout: default
+css: page.css
+---
+<div class="back">
+    <div class="container logo-container">
+        <div class="row">
+            <div class="col-xs-12 center-xs">
+                <a href="/">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="/img/logo/wedding-season-logo.svg">
+                        <source media="(min-width: 768px)" srcset="/img/logo/wedding-season-logo-wide.svg">
+                        <img class="logo" src="/img/logo/wedding-season-logo-wide.svg" alt="wedding season logo">
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </div>
+    {% include nav.html %}
+</div>
+<main>
+    <div class="container">
+        <div class="row center-xs">
+            <div class="col-xs">
+                <h1>{{ page.title }}</h1>	
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</main>
