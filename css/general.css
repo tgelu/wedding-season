@@ -91,8 +91,8 @@ blockquote {
 }
 
 .post-summary {
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
 	margin-bottom: 5rem;
 }
 
@@ -134,7 +134,6 @@ blockquote {
 	margin: 0.75em 0;
 }
 
-.photo .credit,
 .photo .description {
 	display: block;
 	text-align: left;

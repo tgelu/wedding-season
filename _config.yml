@@ -1,0 +1,19 @@
+title: Wedding Season
+subtitle: Charming weddings. Affordable planning.
+
+timezone: Europe/Copenhagen
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+            author: "Alexandra Timoficiuc"
+            author_url: "https://www.instagram.com/tim.alexa/"
+
+liquid:
+    error_mode: strict
+    strict_filters: true
+    strict_variables: true

@@ -1,190 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<!-- Google Analytics -->
-		<script>
-			window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-			ga('create', 'UA-109147046-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		<script async src='https://www.google-analytics.com/analytics.js'></script>
-		<!-- End Google Analytics -->
-		
-		<title>Submit a wedding - Wedding Season</title>
-		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Lora:400i|Lusitana:400,700|Parisienne" rel="stylesheet">
-		<link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
-		<link rel="stylesheet" href="/css/general.css" type="text/css">
-		<link rel="stylesheet" href="/css/page.css" type="text/css">
-		<link rel="stylesheet" href="/css/flexboxgrid.min.css" type="text/css">
-		<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<div class="back">
-			<div class="container logo-container">
-				<div class="row">
-					<div class="col-xs-12 center-xs">
-						<a href="/">
-							<picture>
-								<source media="(max-width: 767px)" srcset="/img/logo/wedding-season-logo.svg">
-								<source media="(min-width: 768px)" srcset="/img/logo/wedding-season-logo-wide.svg">
-								<img class="logo" src="/img/logo/wedding-season-logo-wide.svg" alt="wedding season logo">
-							</picture>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid menu-container">
-				<div class="container">
-					<div class="row center-xs">
-						<div class="col-xs-12 col-md-12 col-lg-10">
-							<nav class="row menu">
-								<div class="col-xs">
-									<a href="/">Home</a>
-								</div>
-								<div class="col-xs">
-									<a href="/about.html">About</a>
-								</div>
-								<div class="col-xs">
-									<a href="/blog.html">Blog</a>
-								</div>
-								<div class="col-xs">
-									<a class="a--highlighted" href="/submit-wedding.html">Submit</a>
-								</div>
-								<div class="col-xs">
-									<a href="/get-in-touch.html">Get in touch</a>
-								</div>
-							</nav>
-						</div>			
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="container">
-			<div class="row center-xs" style="text-align: left;">
-				<div class="col-xs-12 col-sm-11 col-md-9 col-lg-8">
-					<h1>Submit a wedding</h1>
+---
+title: Submit a wedding
+layout: page
+---
+<div class="row center-xs" style="text-align: left">
+    <div class="col-xs-12 col-sm-11 col-md-9 col-lg-8">
+        <p>We are always on the look for real weddings and any kind of creative content to featured on our blog.</p>
 
-					<p>We are always on the look for real weddings and any kind of creative content to featured on our blog.</p>
+        <p>If you believe your submission falls into one or more of the following styles, you are for sure a good fit: <em>bohemian, rustic, indie, intimate, backyard, glam, woodsy, boho-chic, whimsical</em>.</p>
 
-					<p>If you believe your submission falls into one or more of the following styles, you are for sure a good fit: <em>bohemian, rustic, indie, intimate, backyard, glam, woodsy, boho-chic, whimsical</em>.</p>
+        <h2>For vendors</h2>
+        <p>Your work can never have too much exposure online. Be it photos, videos, decorations, table arrangements or any kind of wedding related service, it will only help your business, big or small, to have others enjoy it and share it around.</p>
+        <p><em>We promise</em> to always give credit where it is due with proper appreciation for the work and links to the vendors.</p>
 
-					<h2>For vendors</h2>
-					<p>Your work can never have too much exposure online. Be it photos, videos, decorations, table arrangements or any kind of wedding related service, it will only help your business, big or small, to have others enjoy it and share it around.</p>
-					<p><em>We promise</em> to always give credit where it is due with proper appreciation for the work and links to the vendors.</p>
+        <h2>For couples</h2>
+        <p>We invite you to showcase your wedding day for the world to see. <em>We promise</em> to do our best in writing about it based on your description, and to find a beautiful way to tell the day's story through the media you upload.</p>
+        <p>Look at it as an opportunity to share the beauty of your big day with the world. The link to the wedding feature we will write is <em>the simple</em> way to preserve and show friends the highlights of the wedding day.</p>
 
-					<h2>For couples</h2>
-					<p>We invite you to showcase your wedding day for the world to see. <em>We promise</em> to do our best in writing about it based on your description, and to find a beautiful way to tell the day's story through the media you upload.</p>
-					<p>Look at it as an opportunity to share the beauty of your big day with the world. The link to the wedding feature we will write is <em>the simple</em> way to preserve and show friends the highlights of the wedding day.</p>
+        <img class="divider" role="presentation" src="/img/decorations/divider.svg"/>
 
-					<img class="divider" role="presentation" src="/img/decorations/divider.svg"/>
+        <h2>Submit</h2>
+        <p>In order for us to properly showcase a wedding we first need to understand a few simple things about it. Let us know by completing the form below.</p>
 
-					<h2>Submit</h2>
-					<p>In order for us to properly showcase a wedding we first need to understand a few simple things about it. Let us know by completing the form below.</p>
+        <form class="submit-form" action="thank-you-for-submission.php" method="POST" enctype="multipart/form-data">
+            <label for="description">
+                Wedding/styled shoot description:
+            </label>
+            <div class="input-description">
+                We encourage mentioning all the interesting details, for example:
+                <ul>
+                    <li>Names of the couple</li>
+                    <li>A little background of their story</li>
+                    <li>Location and date of the wedding/styled shoot</li>
+                    <li>The inspiration for the chosen theme or decor</li>
+                    <li>Any <i title="Do it yourself">DIY</i> projects</li>
+                    <li>Favorite moments of the day</li>
+                    <li>What did and what didn't go as planned</li>
+                </ul>
+            </div>
+            <p><textarea class="question" rows="6" name="description" required></textarea></p>
 
-					<form class="submit-form" action="thank-you-for-submission.php" method="POST" enctype="multipart/form-data">
-						<label for="description">
-							Wedding/styled shoot description:
-						</label>
-						<div class="input-description">
-							We encourage mentioning all the interesting details, for example:
-							<ul>
-								<li>Names of the couple</li>
-								<li>A little background of their story</li>
-								<li>Location and date of the wedding/styled shoot</li>
-								<li>The inspiration for the chosen theme or decor</li>
-								<li>Any <i title="Do it yourself">DIY</i> projects</li>
-								<li>Favorite moments of the day</li>
-								<li>What did and what didn't go as planned</li>
-							</ul>
-						</div>
-						<p><textarea class="question" rows="6" name="description" required></textarea></p>
+            <label for="vendors">
+                Vendors list:
+            </label>
+            <div class="input-description">
+                Let us help give the credit where it's due. We expect a list of names and respective links to the business or individuals who helped with the event.
+            </div>
+            <p><textarea class="question" rows="4" name="vendors" required></textarea></p>
 
-						<label for="vendors">
-							Vendors list:
-						</label>
-						<div class="input-description">
-							Let us help give the credit where it's due. We expect a list of names and respective links to the business or individuals who helped with the event.
-						</div>
-						<p><textarea class="question" rows="4" name="vendors" required></textarea></p>
+            <label for="documents-link">
+                Link to photos, videos or other media:
+            </label>
+            <div class="input-description">
+                Any link that points to the relevant media is fine (dropbox, google drive, onedrive, iCloud, box.com, weShare, blog post etc.).
+                <br/><br/>For the size of the photos, we expect at least a width of 720px to ensure quality content.
+                We hope you can share at least 50 photos that help tell the story of the day, so that we can properly feature the event.
+                <br/><br/>Keep in mind that detailed shots, portraits, venue and decor shots work best.
 
-						<label for="documents-link">
-							Link to photos, videos or other media:
-						</label>
-						<div class="input-description">
-							Any link that points to the relevant media is fine (dropbox, google drive, onedrive, iCloud, box.com, weShare, blog post etc.).
-							<br/><br/>For the size of the photos, we expect at least a width of 720px to ensure quality content.
-							We hope you can share at least 50 photos that help tell the story of the day, so that we can properly feature the event.
-							<br/><br/>Keep in mind that detailed shots, portraits, venue and decor shots work best.
+            </div>
+            <p><input type="url" name="documents-link" required/></p>
 
-						</div>
-						<p><input type="url" name="documents-link" required/></p>
+            <label for="email">
+                Contact email:
+            </label>
+            <div class="input-description">
+                We use this to to let you know when the post is ready.
+            </div>
+            <p><input type="email" name="email" required/></p>
 
-						<label for="email">
-							Contact email:
-						</label>
-						<div class="input-description">
-							We use this to to let you know when the post is ready.
-						</div>
-						<p><input type="email" name="email" required/></p>
+            <div class="row center-xs">
+                <div class="col-xs-12 col-lg-6">
+                    <input type="submit" name="submit" value="Submit"/>
+                </div>
+            </div>
+        </form>
 
-						<div class="row center-xs">
-							<div class="col-xs-12 col-lg-6">
-								<input type="submit" name="submit" value="Submit"/>
-							</div>
-						</div>
-					</form>
-
-					<img class="divider--end" role="presentation" src="/img/decorations/end-divider.svg"/>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<div class="container">
-				<div class="row center-xs middle-xs between-xs start-md">
-					<div class="col-xs-12 col-sm-6 last-xs first-sm">
-						<a href="/">
-							<img class="logo--footer" src="/img/logo/wedding-season-logo-wide-black.svg" alt="wedding season logo"/>
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-6">
-						<div class="row center-xs end-md">
-							<div class="col-xs-12">
-								<div class="row middle-xs">
-									<div class="col-xs">
-										Get in touch:
-									</div>
-									<div class="col-xs-2 col-sm-2 col-md-1">
-										<a href="https://www.pinterest.com/weddingseason_events/" target="_blank" aria-label="Wedding Season on Pinterest" title="Wedding Season on Pinterest">
-											<i class="fa fa-pinterest"></i>
-										</a>
-									</div>
-									<div class="col-xs-2 col-sm-2 col-md-1">
-										<a href="https://www.facebook.com/weddingseason.events" target="_blank" aria-label="Wedding Season on Facebook" title="Wedding Season on Facebook">
-											<i class="fa fa-facebook-official"></i>
-										</a>
-									</div>
-									<div class="col-xs-2 col-sm-2 col-md-1">
-										<a href="https://www.instagram.com/weddingseason.events/" target="_blank" aria-label="Wedding Season on Instagram" title="Wedding Season on Instagram">
-											<i class="fa fa-instagram"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row center-xs end-sm">
-							<div class="col-xs-12">
-								<address>
-									Wedding Season<br/>
-									Nixvej 2A, 4700 Næstved, Denmark
-								</address>
-							</div>
-						</div>
-					</div>	
-				</div>
-			</div>
-		</footer>
-	</body>
-</html>
+        <img class="divider--end" role="presentation" src="/img/decorations/end-divider.svg"/>
+    </div>
+</div>

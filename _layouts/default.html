@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Analytics -->
+        <script>
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', 'UA-109147046-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script async src='https://www.google-analytics.com/analytics.js'></script>
+        <!-- End Google Analytics -->
+
+        <title>
+        {% if page.title == 'Home' %}
+            {{ site.title }} - {{ site.subtitle }}
+        {% else %}
+            {{ page.title }} - {{ site.title }}
+        {% endif %}
+        </title>
+        <meta charset="utf-8">
+
+        <link href="https://fonts.googleapis.com/css?family=Lora:400i|Lusitana:400,700|Parisienne" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+        <link rel="stylesheet" href="/css/general.css" type="text/css">
+        <link rel="stylesheet" href="/css/{{ layout.css }}" type="text/css">
+        <link rel="stylesheet" href="/css/flexboxgrid.min.css" type="text/css">
+        <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- MailChimp -->
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup {
+                clear:left;
+            font:15px Helvetica,Arial,sans-serif;
+            width:100%;
+            }
+            #mc_embed_signup input.button {
+                background-color: #fd7b4c;
+            }
+            #mc_embed_signup input.button:hover,
+            #mc_embed_signup input.button:focus {
+                background-color: #e15a2a;
+            }
+        </style>
+        <!-- End MailChimp -->
+    </head>
+    <body>
+        {{ content }}
+        {% include footer.html %}
+    </body>
+</html>
