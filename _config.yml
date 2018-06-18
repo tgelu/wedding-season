@@ -11,9 +11,9 @@ defaults:
         values:
             layout: "post"
             author: "Alexandra Timoficiuc"
-            author-url: "https://www.instagram.com/tim.alexa/"
+            author_url: "https://www.instagram.com/tim.alexa/"
 
 liquid:
-    error_mode: warn
+    error_mode: strict
     strict_filters: true
     strict_variables: true
