@@ -1,27 +1,63 @@
-# Steffie and Ben's intimate laid-back wedding day
- 
-![Bride and groom standing up for cheers](Candida&MaxJan-Photography-2018-02-23-73.jpg "Steffie and Ben welcoming their guests")
+---
+title: Steffie and Ben's intimate laid-back wedding day
+excerpt: "Steffie and Ben got married on the 1st of September 2017 in Deidesheim, Germany surrounded by the closest and dearest"
+
+image_url: /img/blog/steffie-and-ben-s-intimate-laid-back-wedding-day.jpg
+image_description: "Bride and groom standing up for cheers"
+---
+{% include blog_photo.html
+title="Steffie and Ben welcoming their guests"
+description="Bride and groom standing up for cheers"
+credit_name="Candida and Max Jan"
+credit_url="https://candidaundmaxjan.de/wedding/"
+%}
 
 I hope your week has been as great as mine, which consisted mostly of stirring my creative bones by working on my garden project. I am growing my own plants for a style shoot I am planning for later this summer and learning calligraphy. Both endeavors I enjoy doing but the highlight of my week was working on this beautiful real wedding I am sharing with you today.
 
 Steffie and Ben got married on the 1st of September 2017 in Deidesheim, Germany surrounded by the closest and dearest. It was a bridal party of 25 guests, the perfect number for the intimate wedding they had in mind.
 
-![Bride and groom surrounded by a vineyard](Candida&MaxJan-Photography-2018-02-23-64.jpg "Steffie and Ben in the warm September light)
+{% include blog_photo.html
+title="Steffie and Ben in the warm September light"
+description="Bride and groom surrounded by a vineyard"
+credit_name="Candida and Max Jan"
+credit_url="https://candidaundmaxjan.de/wedding/"
+%}
  
 I love all the personal details of this wedding day including the laid-back style of their nuptials, like the bride getting ready in their cozy apartment. For this, truth be told, I feel a little envy... don't worry, the good kind, where you crave for inspiration. Seriously, have you noticed their huge vintagey mirror and their bathtub? And the priest that plays the guitar for the couple's ceremony, how special is that?!
 
-![Wall vintage mirror](Candida&MaxJan-Photography-2018-02-23-5.jpg "The huge vintage mirror")
+{% include blog_photo.html
+title="The huge vintage mirror"
+description="Wall vintage mirror"
+credit_name="Candida and Max Jan"
+credit_url="https://candidaundmaxjan.de/wedding/"
+%}
 
-![Priest playing guitar in a church](Candida&MaxJan-Photography-2018-02-23-36.jpg "A lovely personal touch for the wedding ceremony")
+{% include blog_photo.html
+title="A lovely personal touch for the wedding ceremony"
+description="Priest playing guitar in a church"
+credit_name="Candida and Max Jan"
+credit_url="https://candidaundmaxjan.de/wedding/"
+%}
  
 The bride's "something blue" is the cutest pair of heels that were beautifully complemented by the pearl earrings and the silver hair piece.
 The couple chose hues of white with yellow touches for their florals. This gently suggestes the end of summer. But they went for pies and berry-filled wedding cake to celebrate the beginning of autumn.
 
-![Blue low heel pair of shoes](Candida&MaxJan-Photography-2018-02-23-4.jpg "Steffie's something blue")
+{% include blog_photo.html
+title="Steffie's something blue"
+description="Blue low heel pair of shoes"
+credit_name="Candida and Max Jan"
+credit_url="https://candidaundmaxjan.de/wedding/"
+%}
  
 The [location](http://dashofgut.com) is absolutely gorgeous and such a great choice for their small wedding bash. It provided the rustic touch that underlined their desired feeling for the day: rugged walls, exposed beams, wooden tables and generally a very homey atmosphere.
 
-![The room for the wedding reception](Candida&MaxJan-Photography-2018-02-23-68.jpg "Cozy Wedding Reception")
+{% include blog_photo.html
+title="Cozy Wedding Reception"
+description="The room for the wedding reception"
+credit_name="Candida and Max Jan"
+credit_url="https://candidaundmaxjan.de/wedding/"
+%}
+
 The couple being snugged by the greenery of the vineyard and the soft light of September the portraits couldn't be anything but dazzling.
  
 Thank you, [Candida and Max Jan](https://candidaundmaxjan.de/wedding/) for this beautiful feature.
@@ -44,11 +80,28 @@ A bit about the day from the photographers:
 I hope you will enjoy this intimate wedding day and get inspired.
 Until next time,
  
-photos here...
+<div class="row center-xs">
+    <div class="col-xs-12">
+        <div class="photos">
+        {% for i in (1..51) %}
+        {% if i != 2 and i != 4 and i != 7 and i != 10 and i != 32 and i != 33 and i != 35 %}
+            <img src="/img/blog/steffie-and-ben-s-intimate-laid-back-wedding-day/steffie-and-ben-s-intimate-laid-back-wedding-day-{{i}}.jpg" title="Steffie and Ben's intimate laid-back wedding day" alt="Steffie and Ben's intimate laid-back wedding day"/>
+        {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+</div>
  
-Credit where it is due:
-Bridal Gown Designer: [Firma Weise](www.weise.eu)
-Groom Outfit Designer: [De Filippo uomo](www.defilippo-uomo.de)
+### The credit where it is due:
+
+Photography: [Candida and Max Jan](https://candidaundmaxjan.de/wedding/)
+
+Bridal Gown Designer: [Firma Weise](https://www.weise.eu/)
+
+Groom Outfit Designer: [De Filippo uomo](http://defilippo-uomo.de)
+
 Cakes: [Hofgut Ruppertsberg](http://dashofgut.com)
-Jewelry: [Juwelier Klink](www.juwelierklink.de)
+
+Jewelry: [Juwelier Klink](https://juwelierklink.de)
+
 Catering: [Hofgut Ruppertsberg](http://dashofgut.com)
