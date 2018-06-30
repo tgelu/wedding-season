@@ -2,21 +2,7 @@
 	<div class="container">
 		<div class="row center-xs">
 			<div class="col-xs-12 col-md-10 col-lg-8">
-				<nav class="row menu">
-					<div class="col-xs">
-						<a
-						{% if page.url == "/" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link index.html %}">Home</a>
-					</div>
-					<div class="col-xs">
-						<a
-						{% if page.url == "/about.html" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link about.html %}">About</a>
-					</div>
+				<nav class="row around-xs">
 					<div class="col-xs">
 						<a
 						{% if page.url == "/blog.html" %}
@@ -30,13 +16,6 @@
 						class="a--highlighted"
 						{% endif %}
 						href="{% link submit-wedding.html %}">Submit</a>
-					</div>
-					<div class="col-xs">
-						<a
-						{% if page.url == "/get-in-touch.html" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link get-in-touch.html %}">Get in touch</a>
 					</div>
 				</nav>
 			</div>			
