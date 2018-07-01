@@ -1,5 +1,5 @@
 .logo-container {
-	padding-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .logo {
@@ -7,12 +7,12 @@
 }
 
 .back {
+	background-color: var(--color-light-orange);
 /*
 	background: url(../img/frontpage-background.jpg);
     background-position: 100% 100%;
 	background-size: cover;
 */	
-	padding-top: 2rem;
 }
 
 @media (max-width: 1023px) {
