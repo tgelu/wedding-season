@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
     --color-light-orange: #fbfaf9;
+    --color-peach: #f4f1e9;
     --color-orange: #e15a2a;
     --color-dark-grey: #3a3a3a;
     --color-grey: #808080;
@@ -20,11 +21,11 @@ body {
 
 .top-nav {
     padding: 0.7rem 0 0 0;
-	background-color: var(--color-light-orange);
+	background-color: var(--color-peach);
 }
 .top-nav .internal-links {
-    font-size: 1.1rem;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
 .top-nav .internal-links a:not(:last-of-type) {
@@ -35,13 +36,14 @@ body {
 }
 
 .nav {
-    padding: 0;
-    font-size: 1.3rem;
-    font-family: 'Work Sans', sans-serif;
+    padding: 0 0 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
-.nav .container {
-    padding: 0 0 0.5rem 0;
+.nav a {
+    padding: 1rem;
 }
 
 
