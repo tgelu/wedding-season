@@ -1,5 +1,4 @@
 title: Wedding Season
-subtitle: Charming weddings. Affordable planning.
 
 timezone: Europe/Copenhagen
 
@@ -17,4 +16,4 @@ defaults:
 liquid:
     error_mode: strict
     strict_filters: true
-    strict_variables: true
+    strict_variables: false
