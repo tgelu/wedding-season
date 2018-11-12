@@ -1,6 +1,6 @@
 ---
-title: "Rustic-Chic barn wedding"
-excerpt: ""
+title: "Rustic-Chic Barn Wedding"
+excerpt: "It's a family affair through and through, and sweet and romantic as anything can be."
 
 image_url: /img/blog/rustic-chic-barn-wedding.jpg
 image_description: "bride and groom holding each other"
@@ -125,8 +125,8 @@ pretty hefty vows to my best friend was an incredible feeling."
 </blockquote>
 
 {% include blog_photo.html
-title="Wedding couple portrait"
-description="Newlyweds portrait while embracing"
+title="Bride getting ready on the wedding day"
+description="Bride getting ready on the wedding day"
 credit_name="Hannah K. Photography"
 credit_url="https://hannahkphotography.co.uk/"
 %}
@@ -149,5 +149,3 @@ wheelbarrow-ed out at 10 pm!"
             <img src="/img/blog/rustic-chic-barn-wedding/rustic-chic-barn-wedding-{{i}}.jpg" title="Rustic chich barn wedding" alt="Rustic chic barn wedding"/>
         {% endfor %}
         </div>
-    </div>
-</div>
