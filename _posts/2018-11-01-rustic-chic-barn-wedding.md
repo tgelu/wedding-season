@@ -149,3 +149,5 @@ wheelbarrow-ed out at 10 pm!"
             <img src="/img/blog/rustic-chic-barn-wedding/rustic-chic-barn-wedding-{{i}}.jpg" title="Rustic chich barn wedding" alt="Rustic chic barn wedding"/>
         {% endfor %}
         </div>
+    </div>
+</div>
