@@ -1,25 +1,21 @@
 <div class="container-fluid nav">
 	<div class="container">
-		<div class="row center-xs">
-			<div class="col-xs-12 col-md-10">
-				<nav class="row around-xs">
-					<div class="col-xs">
-						<a
-						{% if page.url == "/blog.html" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link blog.html %}">Featured Weddings</a>
-					</div>
-					<div class="col-xs">
-						<a
-						href="{% link blog.html %}">Inspiration + Ideas</a>
-					</div>
-					<div class="col-xs">
-						<a
-						href="{% link blog.html %}">Wedding Planning</a>
-					</div>
-				</nav>
-			</div>			
-		</div>
+        <nav class="row center-xs between-xs">
+            <div class="col-xs start-xs center-md">
+                <a
+                {% if page.url == "/blog.html" %}
+                class="a--highlighted"
+                {% endif %}
+                href="{% link blog.html %}">Featured Weddings</a>
+            </div>
+            <div class="col-xs">
+                <a
+                href="{% link blog.html %}">Inspiration + Ideas</a>
+            </div>
+            <div class="col-xs end-xs center-md">
+                <a
+                href="{% link blog.html %}">Wedding Planning</a>
+            </div>
+        </nav>
 	</div>
 </div>

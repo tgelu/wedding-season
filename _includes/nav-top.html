@@ -1,23 +1,30 @@
 <div class="container-fluid top-nav">
     <div class="container">
         <div class="row between-xs middle-xs">
-            <div class="col-xs-6 col-md-5 internal-links">
-                    {% if page.url != "/" %}
-                    <a href="{% link index.html %}">Home</a>
-                    {% endif %}
-                    <a href="{% link about.html %}">About</a>
-                    <a href="{% link get-in-touch.html %}">Get in Touch</a>
-                    <a href="{% link submit-wedding.html %}">Submit a wedding</a>
+            <div class="col-xs" style="display: inline-flex">
+                <a href="/" title="Wedding Seasons Homepage">
+                    <img class="logo" src="/img/logo/wedding-season-logo-wide.svg" alt="wedding season logo"/>
+                </a>
             </div>
-            <div class="col-xs-6 col-sm-3 col-md-2 end-xs external-links">
-                <a href="https://www.instagram.com/weddingseason.events/" target="_blank" aria-label="Wedding Season on Instagram" title="Wedding Season on Instagram">
-                    <i class="fa fa-instagram"></i>
-                </a>
-                &nbsp;
-                &nbsp;
-                <a href="https://www.pinterest.com/weddingseason_events/" target="_blank" aria-label="Wedding Season on Pinterest" title="Wedding Season on Pinterest">
-                    <i class="fa fa-pinterest"></i>
-                </a>
+            <div class="col-xs col-md-6 col-lg-5">
+                <div class="row between-xs middle-xs">
+                    {% if page.url != "/" %}
+                    <a class="internal-link" href="{% link index.html %}">Home</a>
+                    {% endif %}
+                    <a class="internal-link" href="{% link about.html %}">About</a>
+                    <a class="internal-link" href="{% link get-in-touch.html %}">Get in touch</a>
+                    <a class="internal-link important" href="{% link submit-wedding.html %}">Submit a wedding</a>
+                    <div>
+                        <a class="external-link" href="https://www.instagram.com/weddingseason.events/" target="_blank" aria-label="Wedding Season on Instagram" title="Wedding Season on Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        &nbsp;
+                        &nbsp;
+                        <a class="external-link" href="https://www.pinterest.com/weddingseason_events/" target="_blank" aria-label="Wedding Season on Pinterest" title="Wedding Season on Pinterest">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

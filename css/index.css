@@ -1,9 +1,7 @@
-.logo-container {
-    padding-bottom: 3rem;
-}
-
 .logo {
-	width: 18rem;
+	width: 19rem;
+    height: 6rem;
+    padding-top: 0.5rem;
 }
 
 .back {
@@ -16,29 +14,7 @@
 }
 
 @media (max-width: 1023px) {
-	.logo-container {
-		margin-bottom: 3rem;
-	}
-	
-	.logo-container  h1 {
-		margin-top: 1.5rem;
-	}
-	
-	.back {
-		padding-top: 3rem;
-	}
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
-	.logo-container {
-		margin-bottom: 6rem;
-	}
-	
-	.logo-container  h1 {
-		margin-top: 2rem;
-	}
-	
-	.back {
-		padding-top: 8rem;
-	}
 }
