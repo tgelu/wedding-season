@@ -4,6 +4,8 @@ excerpt: "Today we are taking a trip to lovely Sweden to get inspired by this in
 
 image_url: /img/blog/erika-and-romain-s-scandinavian-wedding-day.jpg
 image_description: "Bride and groom holding each other in a green field at dusk"
+
+categories: featured-weddings
 ---
 
 {% include blog_photo.html

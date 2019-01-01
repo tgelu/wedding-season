@@ -4,6 +4,8 @@ excerpt: "I am very excited to announce that at the end of this month I am plann
 
 image_url: /img/blog/7-reasons-for-why-i-love-style-shoots.jpg
 image_description: "Bible verse written on a canvas hanging on a wall"
+
+categories: blog
 ---
 
 {% include blog_photo.html

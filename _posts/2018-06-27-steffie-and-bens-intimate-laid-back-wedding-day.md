@@ -4,6 +4,8 @@ excerpt: "Steffie and Ben got married on the 1st of September 2017 in Deidesheim
 
 image_url: /img/blog/steffie-and-ben-s-intimate-laid-back-wedding-day.jpg
 image_description: "Bride and groom standing up for cheers"
+
+categories: featured-weddings
 ---
 {% include blog_photo.html
 title="Steffie and Ben welcoming their guests"

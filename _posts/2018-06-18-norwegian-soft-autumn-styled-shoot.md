@@ -4,6 +4,8 @@ excerpt: "Today I will share with you an absolutely blissful styled shoot from b
 
 image_url: /img/blog/norwegian-soft-autumn-styled-shoot.jpg
 image_description: "Bride leaning against groom in nature"
+
+categories: inspiration
 ---
 Today I will share with you an absolutely blissful styled shoot sent by the talented [@ingvildkolnes](https://www.instagram.com/ingvildkolnes/), and I know you will find it as magical as I did. 
 

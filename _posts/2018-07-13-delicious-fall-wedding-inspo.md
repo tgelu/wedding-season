@@ -4,6 +4,8 @@ excerpt: "In the middle of this summer heat wave, I have for you the most refres
 
 image_url: /img/blog/delicious-fall-wedding-inspo.jpg
 image_description: "A wedding bouquet in autumn colors"
+
+categories: inspiration
 ---
 
 {% include blog_photo.html

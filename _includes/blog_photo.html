@@ -4,18 +4,18 @@
             <img src="/img/blog/{{ page.title | slugify: 'latin' }}/{{ include.title | slugify: 'latin' }}.jpg" alt="{{ include.description }}"/>
             <div class="description">
 
-                {{ include.title }}. 
-                Photo from 
-                <a href="{{ include.credit_url }}" target="_blank" title="{{ include.credit_name }}" rel="external">{{ include.credit_name }}</a>. 
-                
+                {{ include.title }}.
+                Photo from
+                <a href="{{ include.credit_url }}" target="_blank" title="{{ include.credit_name }}" rel="external">{{ include.credit_name }}</a>.
+
                 {% if include.extra_credit %}
-                {{ include.extra_credit }} 
-                <a href="{{ include.extra_credit_url }}" target="_blank" title="{{ include.extra_credit_name }}" rel="external">{{ include.extra_credit_name }}</a>. 
+                {{ include.extra_credit }}
+                <a href="{{ include.extra_credit_url }}" target="_blank" title="{{ include.extra_credit_name }}" rel="external">{{ include.extra_credit_name }}</a>.
                 {% endif %}
 
                 {% if include.extra_credit_2 %}
-                {{ include.extra_credit_2 }} 
-                <a href="{{ include.extra_credit_2_url }}" target="_blank" title="{{ include.extra_credit_2_name }}" rel="external">{{ include.extra_credit_2_name }}</a>. 
+                {{ include.extra_credit_2 }}
+                <a href="{{ include.extra_credit_2_url }}" target="_blank" title="{{ include.extra_credit_2_name }}" rel="external">{{ include.extra_credit_2_name }}</a>.
                 {% endif %}
 
             </div>

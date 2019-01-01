@@ -4,6 +4,8 @@ excerpt: "Today marks precisely a year since I took the first step in following 
 
 image_url: /img/blog/new-journey.jpg
 image_description: "Alexa ad desk browsing through a magazine"
+
+categories: blog
 ---
 
 {% include blog_photo.html

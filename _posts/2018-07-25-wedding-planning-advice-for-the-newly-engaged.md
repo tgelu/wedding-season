@@ -4,6 +4,8 @@ excerpt: "If you are getting married in 2020, <i>do not</i> buy your wedding dre
 
 image_url: /img/blog/wedding-planning-advice-for-the-newly-engaged.jpg
 image_description: "Wedding ring in a pink velvet box"
+
+categories: planning-tips
 ---
 
 {% include blog_photo.html

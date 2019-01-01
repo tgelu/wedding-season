@@ -4,6 +4,8 @@ excerpt: "It's a family affair through and through, and sweet and romantic as an
 
 image_url: /img/blog/rustic-chic-barn-wedding.jpg
 image_description: "bride and groom holding each other"
+
+categories: featured-weddings
 ---
 
 {% include blog_photo.html

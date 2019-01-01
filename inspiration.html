@@ -1,14 +1,14 @@
 ---
-title: Blog
+title: Inspiration + Ideas
 layout: page-wide
-permalink: /blog/
+permalink: /inspiration/
 ---
 
 <h1>{{ page.title }}</h1>
 
 <main class="container posts-container">
     <ul class="row around-xs" style="list-style:none; padding:0">
-        {% for post in site.categories.blog %}
+        {% for post in site.categories.inspiration %}
         <li class="col-xs-12 col-sm-6 col-md-4 post-summary">
             <a href="{{ post.url }}" title="{{ post.title }}">
                 <img src="{{ post.image_url }}" alt="{{ post.image_description }}">

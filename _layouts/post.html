@@ -1,14 +1,30 @@
 ---
-layout: page
-css: index.css
+layout: page-wide
 ---
-{% capture blog_url %}
-{% link blog.html %}
-{% endcapture %}
 
-{% include breadcrumbs.html
-parent_title="Blog" parent_url=blog_url
-%}
+{% case page.categories[0] %}
+    {% when "inspiration" %}
+        {% assign name = "Inspiration + Ideas" %}
+        {% capture url %}
+            {% link inspiration.html %}
+        {% endcapture %}
+    {% when "featured-weddings" %}
+        {% assign name = "Featured Weddings" %}
+        {% capture url %}
+            {% link featured-weddings.html %}
+        {% endcapture %}
+    {% when "planning-tips" %}
+        {% assign name = "Planning Tips" %}
+        {% capture url %}
+            {% link planning-tips.html %}
+        {% endcapture %}
+    {% when "blog" %}
+        {% assign name = "Blog" %}
+        {% capture url %}
+            {% link blog.html %}
+        {% endcapture %}
+{% endcase%}
+
 
 <div class="container">
     <div class="row center-xs">
@@ -16,6 +32,9 @@ parent_title="Blog" parent_url=blog_url
             <header>
                 <h1>{{ page.title }}</h1>
                 <div class="author">
+                    <div>
+                        <a class="category" href="{{ url }}">{{ name }}</a>
+                    </div>
                     Posted by <a href="{{ page.author_url }}" rel="author">{{ page.author }}</a> on <time datetime="{{ page.date | date:'%Y-%m-%d' }}">
                         {{ page.date | date_to_long_string: "ordinal" }}
                     </time>

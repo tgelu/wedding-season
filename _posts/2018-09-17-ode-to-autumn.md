@@ -4,6 +4,8 @@ excerpt: "September is one of my favorite months, not only because it gives the 
 
 image_url: /img/blog/ode-to-autumn.jpg
 image_description: "Bride and Groom in an autumnal environemnet"
+
+categories: inspiration
 ---
 
 {% include blog_photo.html

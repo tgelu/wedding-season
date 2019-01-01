@@ -1,21 +1,10 @@
 <div class="container-fluid nav">
 	<div class="container">
         <nav class="row center-xs between-xs">
-            <div class="col-xs start-xs center-md">
-                <a
-                {% if page.url == "/blog.html" %}
-                class="a--highlighted"
-                {% endif %}
-                href="{% link blog.html %}">Featured Weddings</a>
-            </div>
-            <div class="col-xs">
-                <a
-                href="{% link blog.html %}">Inspiration + Ideas</a>
-            </div>
-            <div class="col-xs end-xs center-md">
-                <a
-                href="{% link blog.html %}">Planning Tips</a>
-            </div>
+            <a href="{% link inspiration.html %}">Inspiration + Ideas</a>
+            <a href="{% link featured-weddings.html %}">Featured Weddings</a>
+            <a href="{% link planning-tips.html %}">Planning Tips</a>
+            <a href="{% link blog.html %}">Blog</a>
         </nav>
 	</div>
 </div>
