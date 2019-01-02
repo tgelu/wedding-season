@@ -2,9 +2,11 @@
 	box-sizing: border-box;
     --color-light-orange: #fbfaf9;
     --color-peach: #f4f1e9;
+    --color-dark-peach: #ecdde0;
     --color-purple: #833746;
     --color-light-purple: #984355;
     --color-orange: #e15a2a;
+    --color-dark-orange: #ed3d0f;
     --color-dark-grey: #3a3a3a;
     --color-grey: #808080;
     --color-light-grey: #cecece;
@@ -37,13 +39,31 @@ body {
 @media (min-width: 1024px) and (max-width: 1439px) {
 }
 
+/* xs */
+@media (max-width: 767px) {
+    .latest-row {
+        margin-bottom: 3rem;
+    }
+    .latest-img {
+        height: 15rem;
+    }
+}
+
+/* xs up */
+@media (min-width: 768px) {
+    .latest-row,
+    .latest-img {
+        height: 100%;
+    }
+}
+
 
 .hint {
     color: var(--color-grey);
 }
 
 .latest-posts {
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .latest-posts h2 {
@@ -52,14 +72,13 @@ body {
 }
 
 .latest-img {
-    height: 20rem;
     background-size: cover;
     background-position: 50%;
 }
 
 .featured-post h3 {
     font-size: 1.3rem;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
 }
 
 .featured-post .row:not(:last-child) {
@@ -93,16 +112,23 @@ body {
 .nav {
     position: sticky;
     top: 0;
-    padding: 1.25rem 0;
+    padding: 1.15rem 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
     text-transform: uppercase;
-    background-color: var(--color-light-orange);
-    border-bottom: 1px solid var(--color-peach);
+    background-color: var(--color-light-purple);
+    /*border-bottom: 1px solid var(--color-dark-peach);*/
 }
 .nav .row {
     margin: auto;
     max-width: 800px;
+}
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    color: white;
 }
 
 
@@ -311,12 +337,12 @@ footer a:hover {
 /* end footer */
 
 a {
-	color: #e15a2a;
+	color: var(--color-orange);
     text-decoration: none;
 }
 
 a:hover {
-	color: #ff0000;
+	color: var(--color-dark-orange);
 	text-decoration: underline;
 }
 
@@ -417,10 +443,8 @@ a.a--highlighted {
 }
 
 .category {
-    background-color: var(--color-orange);
-    color: white !important;
-    padding: 0.3rem 1rem;
-    border-radius: 5px;
+    color: var(--color-grey);
+    text-decoration: underline;
 }
 
 h1 + .author, .h1 + .author {

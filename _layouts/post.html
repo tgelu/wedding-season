@@ -2,29 +2,7 @@
 layout: page-wide
 ---
 
-{% case page.categories[0] %}
-    {% when "inspiration" %}
-        {% assign name = "Inspiration + Ideas" %}
-        {% capture url %}
-            {% link inspiration.html %}
-        {% endcapture %}
-    {% when "featured-weddings" %}
-        {% assign name = "Featured Weddings" %}
-        {% capture url %}
-            {% link featured-weddings.html %}
-        {% endcapture %}
-    {% when "planning-tips" %}
-        {% assign name = "Planning Tips" %}
-        {% capture url %}
-            {% link planning-tips.html %}
-        {% endcapture %}
-    {% when "blog" %}
-        {% assign name = "Blog" %}
-        {% capture url %}
-            {% link blog.html %}
-        {% endcapture %}
-{% endcase%}
-
+{% assign category = page.categories[0] %}
 
 <div class="container">
     <div class="row center-xs">
@@ -35,9 +13,12 @@ layout: page-wide
                     <div>
                         <a class="category" href="{{ url }}">{{ name }}</a>
                     </div>
-                    Posted by <a href="{{ page.author_url }}" rel="author">{{ page.author }}</a> on <time datetime="{{ page.date | date:'%Y-%m-%d' }}">
+                    Posted by <a href="{{ page.author_url }}" rel="author">{{ page.author }}</a>
+                    on
+                    <time datetime="{{ page.date | date:'%Y-%m-%d' }}">
                         {{ page.date | date_to_long_string: "ordinal" }}
                     </time>
+                    in {% include category.html category = category %}
                 </div>
             </header>
             <main>
