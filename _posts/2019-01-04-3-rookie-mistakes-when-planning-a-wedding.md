@@ -130,12 +130,6 @@ when you see the amazing photos, you won't notice my mistakes but you will be
 able to appreciate our creativity and love for the concept we came up with for
 this late autumn editorial.
 
-{% include blog_photo.html
-title="Wedding Season's autumn styled shoot team"
-description="Four young women posing for a photo"
-credit_name="Baby Bear" credit_url="http://babybear.dk"
-%}
-
 For next time I have yet another real wedding to share with you, to inspire you
 with and spread the love.
 Have a fabulous first weekend of the year!
