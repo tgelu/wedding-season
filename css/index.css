@@ -183,6 +183,9 @@ body {
     .hide-xs {
         display: none !important;
     }
+    .logo {
+        width: 17rem;
+    }
 }
 
 /* xs up */
