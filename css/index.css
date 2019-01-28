@@ -201,10 +201,11 @@ body {
 
 .section-heading {
     text-align: center;
-    margin-top: 3em !important;
-    margin-bottom: 2.2em !important;
-    font-size: 1.5rem;
+    margin-top: 4rem !important;
+    margin-bottom: 3.5rem !important;
+    font-size: 1.4rem;
     position: relative;
+    font-family: 'Lora';
 }
 
 .section-heading span {
@@ -498,25 +499,6 @@ i[title], abbr[title] {
     color: #808080;
     text-decoration: none;
 }
-
-/* CTA */
-.cta {
-    font-size: 2rem;
-    font-family: 'Lora', serif;
-    color: #ffffff;
-    padding: 10px 30px;
-    border: 2px solid #ffffff;
-}
-
-.cta:after {
-    content: '>';
-    display: inline-block;
-    line-height: 0.7em;
-    overflow: hidden;
-    width: 0;
-    transition: width ease-in-out 150ms;
-}
-/* end cta */
 
 
 .breadcrumbs {

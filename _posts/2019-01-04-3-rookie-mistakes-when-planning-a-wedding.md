@@ -1,6 +1,8 @@
 ---
 title: "3 Rookie Mistakes When Planning a Wedding Editorial"
-excerpt: "We all make mistakes, but some can be anticipated and avoided"
+excerpt: "It is said that people learn from their mistakes, but the wisest learn
+from other people's mistakes. This post is a quick win for you learning from my
+own mishaps from my last styled-shoot."
 
 image_url: /img/blog/3-rookie-mistakes-when-planning-a-wedding-editorial.jpg
 image_description: "Floral centerpiece in red hues"
