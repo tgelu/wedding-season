@@ -1,45 +1,72 @@
-<div class="container-fluid menu-container">
+<div class="container-fluid nav">
+    <div class="container">
+        <div class="row between-xs middle-xs">
+            <div class="col-xs" style="display: inline-flex">
+                <a href="/" title="Wedding Seasons Homepage">
+                    <img class="logo" src="/img/logo/wedding-season-logo-wide.svg" alt="wedding season logo"/>
+                </a>
+            </div>
+            <div class="col-xs col-md-6 col-lg-5 hide-xs">
+                <nav class="row between-xs middle-xs">
+                    <a class="internal-link" href="{% link about.md %}">About</a>
+                    <a class="internal-link" href="{% link get-in-touch.html %}">Get in touch</a>
+                    <a class="internal-link important" href="{% link submit-wedding.html %}">Submit a wedding</a>
+                    <div>
+                        <a class="external-link" href="https://www.instagram.com/weddingseasonevents/" target="_blank" aria-label="Wedding Season on Instagram" title="Wedding Season on Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        &nbsp;
+                        &nbsp;
+                        <a class="external-link" href="https://www.pinterest.com/weddingseason_events/" target="_blank" aria-label="Wedding Season on Pinterest" title="Wedding Season on Pinterest">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-xs end-xs hide-md">
+                <button class="nav__toggle" onclick="toggleMenu()">
+                    <i class="fa fa-bars nav__toggle-icon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid nav nav--second hide-xs">
+    <div class="container">
+        <nav class="row center-xs between-xs">
+            <a href="{% link inspiration.html %}">Inspiration + Ideas</a>
+            <a href="{% link featured-weddings.html %}">Featured Weddings</a>
+            <a href="{% link planning-tips.html %}">Planning Tips</a>
+            <a href="{% link blog.html %}">Blog</a>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid nav nav--mobile hide hide-md">
 	<div class="container">
-		<div class="row center-xs">
-			<div class="col-xs-12 col-md-10 col-lg-8">
-				<nav class="row menu">
-					<div class="col-xs">
-						<a
-						{% if page.url == "/" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link index.html %}">Home</a>
-					</div>
-					<div class="col-xs">
-						<a
-						{% if page.url == "/about.html" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link about.html %}">About</a>
-					</div>
-					<div class="col-xs">
-						<a
-						{% if page.url == "/blog.html" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link blog.html %}">Blog</a>
-					</div>
-					<div class="col-xs">
-						<a
-						{% if page.url == "/submit-wedding.html" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link submit-wedding.html %}">Submit</a>
-					</div>
-					<div class="col-xs">
-						<a
-						{% if page.url == "/get-in-touch.html" %}
-						class="a--highlighted"
-						{% endif %}
-						href="{% link get-in-touch.html %}">Get in touch</a>
-					</div>
-				</nav>
-			</div>			
-		</div>
+        <nav class="row center-xs between-xs nav__content-links">
+            <a href="{% link inspiration.html %}">Inspiration + Ideas</a>
+            <a href="{% link featured-weddings.html %}">Featured Weddings</a>
+            <a href="{% link planning-tips.html %}">Planning Tips</a>
+            <a href="{% link blog.html %}">Blog</a>
+        </nav>
+        <nav class="row center-xs between-xs nav__site-links">
+            <div class="col-xs-12 nav__social">
+                <a href="https://www.instagram.com/weddingseasonevents/" target="_blank" aria-label="Wedding Season on Instagram" title="Wedding Season on Instagram">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                &nbsp;
+                &nbsp;
+                <a href="https://www.pinterest.com/weddingseason_events/" target="_blank" aria-label="Wedding Season on Pinterest" title="Wedding Season on Pinterest">
+                    <i class="fa fa-pinterest"></i>
+                </a>
+            </div>
+            <div class="col-xs-12">
+                <div class="row around-xs">
+                    <a class="internal-link" href="{% link about.md %}">About</a>
+                    <a class="internal-link" href="{% link get-in-touch.html %}">Get in touch</a>
+                    <a class="internal-link" href="{% link submit-wedding.html %}">Submit a wedding</a>
+                </div>
+            </div>
+        </nav>
 	</div>
 </div>

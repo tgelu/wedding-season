@@ -4,6 +4,8 @@ excerpt: "Sean moved from Paris to a tiny town in Germany. For their love he sta
 
 image_url: /img/blog/sean-and-judy-s-boho-wedding-in-germany.jpg
 image_description: "Bride and Groom kissing in front of the altar"
+
+categories: featured-weddings
 ---
 
 {% include blog_photo.html

@@ -12,17 +12,16 @@
 
         <title>
         {% if page.title == 'Home' %}
-            {{ site.title }} - {{ site.subtitle }}
+            {{ site.title }} - Wedding inspiration and planning ideas
         {% else %}
             {{ page.title }} - {{ site.title }}
         {% endif %}
         </title>
         <meta charset="utf-8">
 
-        <link href="https://fonts.googleapis.com/css?family=Lora:400i|Lusitana:400,700|Parisienne" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400i|Lusitana:400,700|Open+Sans:600" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
-        <link rel="stylesheet" href="/css/general.css" type="text/css">
-        <link rel="stylesheet" href="/css/{{ layout.css }}" type="text/css">
+        <link rel="stylesheet" href="/css/index.css" type="text/css">
         <link rel="stylesheet" href="/css/flexboxgrid.min.css" type="text/css">
         <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,5 +47,21 @@
     <body>
         {{ content }}
         {% include footer.html %}
+        <script>
+            function toggleMenu () {
+                const menuClasses = document.querySelector('.nav--mobile').classList
+                const iconClasses = document.querySelector('.nav__toggle-icon').classList
+
+                if (menuClasses.contains('hide')) {
+                    menuClasses.remove('hide')
+                    iconClasses.remove('fa-bars')
+                    iconClasses.add('fa-times')
+                } else {
+                    menuClasses.add('hide');
+                    iconClasses.remove('fa-times')
+                    iconClasses.add('fa-bars')
+                }
+            }
+        </script>
     </body>
 </html>

@@ -4,6 +4,8 @@ excerpt: "This year started with me being a boss-lady, a thing I always dreamed 
 
 image_url: /img/blog/the-proverbial-end-of-the-year-post.jpg
 image_description: "Long decorated table with many light bulbs"
+
+categories: blog
 ---
 
 {% include blog_photo.html

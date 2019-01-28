@@ -4,6 +4,8 @@ excerpt: "Clive and Laura became husband and wife on a wonderful autumn day, muc
 
 image_url: /img/blog/english-countryside-autumn-wedding.jpg
 image_description: "Bride and groom hugging and laughing"
+
+categories: featured-weddings
 ---
 
 {% include blog_photo.html

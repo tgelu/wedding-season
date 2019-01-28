@@ -4,6 +4,8 @@ excerpt: "The rise of the elopement trend has to do with the break of norms that
 
 image_url: /img/blog/trend-alert-elopements.jpg
 image_description: ""
+
+categories: inspiration
 ---
 
 {% include blog_photo.html

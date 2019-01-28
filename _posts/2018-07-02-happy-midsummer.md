@@ -4,6 +4,8 @@ excerpt: "I was thinking that today is the perfect day for a summer wedding seas
 
 image_url: /img/blog/happy-midsummer.jpg
 image_description: "Bride on her wedding day giving a kiss to a donkey"
+
+categories: inspiration
 ---
 
 {% include blog_photo.html

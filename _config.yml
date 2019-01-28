@@ -11,7 +11,7 @@ defaults:
             layout: "post"
             author: "Alexandra Timoficiuc"
             author_url: "https://www.instagram.com/tim.alexa/"
-            permalink: /blog/:year/:month/:title/
+            permalink: /:categories/:title/
 
 liquid:
     error_mode: strict

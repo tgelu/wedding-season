@@ -1,30 +1,8 @@
 ---
-layout: default
-css: page.css
+layout: page-wide
 ---
-<div class="back">
-    <div class="container logo-container">
-        <div class="row">
-            <div class="col-xs-12 center-xs">
-                <a href="/">
-                    <picture>
-                        <source media="(max-width: 767px)" srcset="/img/logo/wedding-season-logo.svg">
-                        <source media="(min-width: 768px)" srcset="/img/logo/wedding-season-logo-wide.svg">
-                        <img class="logo" src="/img/logo/wedding-season-logo-wide.svg" alt="wedding season logo">
-                    </picture>
-                </a>
-            </div>
-        </div>
-    </div>
-    {% include nav.html %}
-</div>
-{% capture blog_url %}
-{% link blog.html %}
-{% endcapture %}
 
-{% include breadcrumbs.html
-parent_title="Blog" parent_url=blog_url
-%}
+{% assign category = page.categories[0] %}
 
 <div class="container">
     <div class="row center-xs">
@@ -32,9 +10,15 @@ parent_title="Blog" parent_url=blog_url
             <header>
                 <h1>{{ page.title }}</h1>
                 <div class="author">
-                    Posted by <a href="{{ page.author_url }}" rel="author">{{ page.author }}</a> on <time datetime="{{ page.date | date:'%Y-%m-%d' }}">
+                    <div>
+                        <a class="category" href="{{ url }}">{{ name }}</a>
+                    </div>
+                    Posted by <a href="{{ page.author_url }}" rel="author">{{ page.author }}</a>
+                    on
+                    <time datetime="{{ page.date | date:'%Y-%m-%d' }}">
                         {{ page.date | date_to_long_string: "ordinal" }}
                     </time>
+                    in {% include category.html category = category %}
                 </div>
             </header>
             <main>

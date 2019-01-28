@@ -1,106 +1,186 @@
 ---
 title: Home
-layout: page-large
+layout: page-wide
 ---
-    <section class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="h1">Wedding Season is all year round</h2>
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6">
-                        {% include photo.html url="/img/homepage-photo-1.jpg"
-                        title="Newlyweds in nature" description="newlyweds embracing eachother at sunset on top of a hill"
-                        credit_url="https://www.instagram.com/cornelspoiala/" credit_name="Cornel Spoiala"
-                        %}
-                    </div>
-                    <div class="col-xs-12 col-lg-6">
-                        <p>I believe there are endless possibilities to achieving a unique wedding day regardless of the season, moreover, enhanced by it.</p>
-                        <p>My purpose is to offer couples the best of my skills and ability to make their day as beautiful and authentic as possible. However I can, I hope to be able to build to the joy and happiness of their day.</p>
-                        <p>Wedding Season is open and my services are available all year round, don't hesitate to contact me for a nice chat, a cup of coffee, or <a href="/blog.html" title="Wedding Season Blog">just heaps of inspiration</a>.</p>
+
+{% assign non_weddings = site.posts | where_exp:"post","post.categories[0] != 'featured-weddings'" %}
+{% assign latest = non_weddings[0] %}
+{% assign latest_category = latest.categories[0] %}
+
+<section class="container latest-posts">
+    <a href="{{ latest.url }}" title="{{ latest.title }}"></a>
+    <div class="row">
+        <div class="col-xs-12 col-md-7">
+            <div class="row latest-row">
+                <div class="col-xs-12 col-md-6 latest-img" style="background-image: url({{ latest.image_url }})">
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <h2>
+                        <a href="{{ latest.url }}" title="{{ latest.title }}">{{ latest.title }}</a>
+                    </h2>
+                    <p>
+                        {{ latest.excerpt }}.
+                    </p>
+                    <div class="hint">
+                        <time datetime="{{ latest.date | date:'%Y-%m-%d' }}">{{ latest.date | date_to_long_string: "ordinal" }}</time>
+                        in {% include category.html category=latest_category %}
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>Let's meet up</h2>
+        <div class="col-xs-12 col-md-5 featured-post">
+            {% for i in (1..3) %}
+            {% assign featured = non_weddings[i] %}
+            {% assign featured_category = featured.categories[0] %}
+            <div class="row">
+                <div class="col-xs-4 col-lg-3">
+                    <img class="featured-img" src="{{ featured.image_url }}" alt="{{ featured.image_description }}">
+                </div>
+                <div class="col-xs-8 col-lg-9">
+                    <h3>
+                        <a href="{{ featured.url }}" title="{{ featured.title }}">{{ featured.title }}</a>
+                    </h3>
+                    <div class="hint">
+                        <time datetime="{{ featured.date | date:'%Y-%m-%d' }}">{{ featured.date | date_to_long_string: "ordinal" }}</time>
+                        in {% include category.html category=featured_category %}
+                    </div>
+                </div>
             </div>
+            {% endfor %}
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6">
-                <p>Hello, My name is Alexandra Timoficiuc, and I started this small company after I discovered how much I enjoyed planning my own wedding in 2015. For all who might care, besides weddings, I love my black cat and my husband, with whom I live in a small house in cold, gloomy Denmark.</p>
-                <p>Without further ado, here I am, the person behind Wedding Season, with quirks, dreams and funny faces.</p>
-                <p></p>
-            </div>
-            <div class="col-xs-12 col-lg-6">
-                <a class="photo photo-link photo-link-alexa" href="/about/meet-alexa.html">
-                    <span class="cta">
-                        Meet Alexa
-                    </span>
-                </a>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>My promises to you</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6">
-                <p>Given the personal nature of the relationship between the wedding planner and the couple, I consider it crucial to lay down my commitments and promises to whomever I work with. This makes me an accountable friend and sets a healthy foundation for my professional interactions.</p>
-                <p>Marriage is full of meaning, and just as it is based on a promise so must be its celebration.</p>
-            </div>
-            <div class="col-xs-12 col-lg-6">
-                <a class="photo photo-link photo-link-promises" href="/about/my-promises.html">
-                    <span class="cta">
-                        My promises
-                    </span>
-                </a>
-            </div>
-        </div>
-    </section>
+{% assign weddings = site.posts | where_exp:"post","post.categories[0] == 'featured-weddings'" %}
+{% assign latest = weddings[0] %}
+{% assign latest_category = latest.categories[0] %}
 
-    <section class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2>My passion for weddings is higher than my fees</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6">
-                <p>I think wedding planning is wrongly pervieced as a high-end service. I honestly believe you shouldn't have to make a decision between the perfect dress and a wedding planner.</p>
-                <p>We make this our goal at Wedding Season and we promise to stick by it, in the types of services and consulting we offer and of course their price tag.</p>
-            </div>
-            <div class="col-xs-12 col-lg-6">
-                <a class="photo photo-link photo-link-services" href="/about/services.html">
-                    <span class="cta">
-                        View services
-                    </span>
-                </a>
-            </div>
-        </div>
-    </section>
+<section class="container latest-posts">
+    <h2 class="section-heading"><span>Latest Featured Weddings</span></h2>
 
-    <section class="container">
-        <br/>
-        <br/>
-
-        <div class="row center-xs">
-            <div class="col-xs-12 col-sm-10 col-md-8">
-                <h2>We also have a seasonal wedding inspiration newsletter</h2>
-                <p>For the inspiration seekers and the lovers of all seasons:
-                we promise to only send one email per season filled with hand-picked wedding photos and posts.</p>
-
-                {% include newsletter.html %}
+    <a href="{{ latest.url }}" title="{{ latest.title }}"></a>
+    <div class="row">
+        <div class="col-xs-12 col-md-7">
+            <div class="row latest-row">
+                <div class="col-xs-12 col-md-6 latest-img" style="background-image: url({{ latest.image_url }})">
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <h2>
+                        <a href="{{ latest.url }}" title="{{ latest.title }}">{{ latest.title }}</a>
+                    </h2>
+                    <p>
+                        {{ latest.excerpt }}.
+                    </p>
+                    <div class="hint">
+                        <time datetime="{{ latest.date | date:'%Y-%m-%d' }}">{{ latest.date | date_to_long_string: "ordinal" }}</time>
+                        in {% include category.html category=latest_category %}
+                    </div>
+                </div>
             </div>
         </div>
 
-        <img class="divider--end" role="presentation" src="/img/decorations/end-divider.svg"/>
-    </section>
-</main>
+        <div class="col-xs-12 col-md-5 featured-post">
+            {% for i in (1..3) %}
+            {% assign featured = weddings[i] %}
+            {% assign featured_category = featured.categories[0] %}
+            <div class="row">
+                <div class="col-xs-4 col-lg-3">
+                    <img class="featured-img" src="{{ featured.image_url }}" alt="{{ featured.image_description }}">
+                </div>
+                <div class="col-xs-8 col-lg-9">
+                    <h3>
+                        <a href="{{ featured.url }}" title="{{ featured.title }}">{{ featured.title }}</a>
+                    </h3>
+                    <div class="hint">
+                        <time datetime="{{ featured.date | date:'%Y-%m-%d' }}">{{ featured.date | date_to_long_string: "ordinal" }}</time>
+                        in {% include category.html category=featured_category %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="container latest-posts">
+    <h2 class="section-heading"><span>Vendor Spotlight</span></h2>
+
+    <a href="https://www.whisperingvintage.com/" title="Whispering Vintage homepage"></a>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="row latest-row">
+                <div class="col-xs-12 col-md-4 latest-img" style="background-image: url(/img/vendors/whispering-vintage.jpg)">
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <h2>
+                        <a href="https://www.whisperingvintage.com/" title="Whispering Vintage homepage">Whispering Vintage</a>
+                    </h2>
+                    <p>
+                        Whispering Vintage is <em>the</em> company you need for
+                        your event if what you envision is vintage, bohemian or
+                        any type of whimsy design. The services the company
+                        offers vary depending on your needs. You can either
+                        borrow the items you need: peacock chairs, rugs,
+                        vintage tableware, you name it or hire Sara who is so
+                        sweet and has such a creative soul to style the entire
+                        event for you: flowers, props, paper suite and all. Do
+                        check her website and Instagram profile to get in touch
+                        with Sara for more information.
+                    </p>
+                    <p>
+                        <a href="https://www.whisperingvintage.com/" target="_blank" rel="external" title="whispering Vintage homepage">Homepage</a>
+                        &nbsp;&nbsp;⚬&nbsp;&nbsp;
+                        <a href="https://www.instagram.com/whisperingvintage/" target="_blank" rel="external" title="whispering Vintage instagram Profile">Instagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="row latest-row">
+                <div class="col-xs-12 col-md-4 latest-img" style="background-image: url(/img/vendors/a-table-story.jpg)">
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <h2>
+                        <a href="https://atablestory.dk/" target="_blank" title="A Table Story homepage">A Table Story</a>
+                    </h2>
+                    <p>
+                        I had the pleasure of working with Trine and Mette, the girls behind
+                        this lovely company and it was an absolute pleasure. Not only are they
+                        helpful in any random circumstance and making the process of renting
+                        their gorgeous Scandinavian design tableware run smoothly, but they
+                        are always ready to give you tips and tricks for impeccable
+                        tablescapes. And their passion for design and high aesthetics is
+                        visible through every item found in their storage rooms.
+                    </p>
+                    <p>
+                        <a href="https://atablestory.dk/" target="_blank" rel="external" title="A table story homepage">Homepage</a>
+                        &nbsp;&nbsp;⚬&nbsp;&nbsp;
+                        <a href="https://www.instagram.com/atablestory/" target="_blank" rel="external" title="A table story instagram Profile">Instagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <br/>
+    <br/>
+
+    <div class="row center-xs">
+        <div class="col-xs-12 col-sm-10 col-md-8">
+            <h2>We also have a seasonal wedding inspiration newsletter</h2>
+            <p>For the inspiration seekers and the lovers of all seasons:
+            we promise to only send one email per season filled with hand-picked wedding photos and posts.</p>
+
+            {% include newsletter.html %}
+        </div>
+    </div>
+
+    <img class="divider--end" role="presentation" src="/img/decorations/end-divider.svg"/>
+</section>
