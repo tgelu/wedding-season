@@ -200,7 +200,6 @@ body {
 }
 
 .section-heading {
-    text-align: center;
     margin-top: 4rem !important;
     margin-bottom: 3.5rem !important;
     font-size: 1.4rem;
@@ -211,6 +210,7 @@ body {
 .section-heading span {
     background-color: white;
     padding: 0 0.5em;
+    margin-left: 2.5vw;
 }
 
 .section-heading:before {
