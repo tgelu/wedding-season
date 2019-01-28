@@ -4,6 +4,8 @@ excerpt: "Their love for God was indeed made evident in the songs they sang, the
 
 image_url: /img/blog/david-and-hannah-s-intimate-rustic-wedding.jpg
 image_description: "Bride and groom celebrated with confetti"
+
+categories: featured-weddings
 ---
 
 {% include blog_photo.html

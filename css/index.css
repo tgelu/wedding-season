@@ -201,10 +201,9 @@ body {
 
 .section-heading {
     margin-top: 4rem !important;
-    margin-bottom: 3.5rem !important;
+    margin-bottom: 3rem !important;
     font-size: 1.4rem;
     position: relative;
-    font-family: 'Lora';
 }
 
 .section-heading span {
