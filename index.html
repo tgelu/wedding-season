@@ -3,7 +3,8 @@ title: Home
 layout: page-wide
 ---
 
-{% assign latest = site.posts[0] %}
+{% assign non_weddings = site.posts | where_exp:"post","post.categories[0] != 'featured-weddings'" %}
+{% assign latest = non_weddings[0] %}
 {% assign latest_category = latest.categories[0] %}
 
 <section class="container latest-posts">
@@ -30,7 +31,7 @@ layout: page-wide
 
         <div class="col-xs-12 col-md-5 featured-post">
             {% for i in (1..3) %}
-            {% assign featured = site.posts[i] %}
+            {% assign featured = non_weddings[i] %}
             {% assign featured_category = featured.categories[0] %}
             <div class="row">
                 <div class="col-xs-4 col-lg-3">
@@ -47,6 +48,125 @@ layout: page-wide
                 </div>
             </div>
             {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% assign weddings = site.posts | where_exp:"post","post.categories[0] == 'featured-weddings'" %}
+{% assign latest = weddings[0] %}
+{% assign latest_category = latest.categories[0] %}
+
+<section class="container latest-posts">
+    <h2 class="section-heading"><span>Popular Featured Weddings</span></h2>
+
+    <a href="{{ latest.url }}" title="{{ latest.title }}"></a>
+    <div class="row">
+        <div class="col-xs-12 col-md-7">
+            <div class="row latest-row">
+                <div class="col-xs-12 col-md-6 latest-img" style="background-image: url({{ latest.image_url }})">
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <h2>
+                        <a href="{{ latest.url }}" title="{{ latest.title }}">{{ latest.title }}</a>
+                    </h2>
+                    <p>
+                        {{ latest.excerpt }}.
+                    </p>
+                    <div class="hint">
+                        <time datetime="{{ latest.date | date:'%Y-%m-%d' }}">{{ latest.date | date_to_long_string: "ordinal" }}</time>
+                        in {% include category.html category=latest_category %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-5 featured-post">
+            {% for i in (1..3) %}
+            {% assign featured = weddings[i] %}
+            {% assign featured_category = featured.categories[0] %}
+            <div class="row">
+                <div class="col-xs-4 col-lg-3">
+                    <img class="featured-img" src="{{ featured.image_url }}" alt="{{ featured.image_description }}">
+                </div>
+                <div class="col-xs-8 col-lg-9">
+                    <h3>
+                        <a href="{{ featured.url }}" title="{{ featured.title }}">{{ featured.title }}</a>
+                    </h3>
+                    <div class="hint">
+                        <time datetime="{{ featured.date | date:'%Y-%m-%d' }}">{{ featured.date | date_to_long_string: "ordinal" }}</time>
+                        in {% include category.html category=featured_category %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="container latest-posts">
+    <h2 class="section-heading"><span>Vendor Spotlight</span></h2>
+
+    <a href="https://www.whisperingvintage.com/" title="Whispering Vintage homepage"></a>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="row latest-row">
+                <div class="col-xs-12 col-md-4 latest-img" style="background-image: url(/img/vendors/whispering-vintage.jpg)">
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <h2>
+                        <a href="https://www.whisperingvintage.com/" title="Whispering Vintage homepage">Whispering Vintage</a>
+                    </h2>
+                    <p>
+                        Whispering Vintage is <em>the</em> company you need for
+                        your event if what you envision is vintage, bohemian or
+                        any type of whimsy design. The services the company
+                        offers vary depending on your needs. You can either
+                        borrow the items you need: peacock chairs, rugs,
+                        vintage tableware, you name it or hire Sara who is so
+                        sweet and has such a creative soul to style the entire
+                        event for you: flowers, props, paper suite and all. Do
+                        check her <a href="https://www.whisperingvintage.com/" rel="external" title="Whispering Vintage homepage">website</a>
+                        and <a href="https://www.instagram.com/whisperingvintage/" rel="external" title="Whispering Vintage instagram profile">Instagram</a> profile to get in touch
+                        with Sara for more information.
+                    </p>
+                    <p>
+                        <a href="https://www.whisperingvintage.com/" rel="external" title="whispering Vintage homepage">Homepage</a>
+                        ●
+                        <a href="https://www.instagram.com/whisperingvintage/" rel="external" title="whispering Vintage instagram Profile">Instagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+
+    <a href="https://atablestory.dk/" title="A Table Story homepage"></a>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="row latest-row">
+                <div class="col-xs-12 col-md-4 latest-img" style="background-image: url(/img/vendors/a-table-story.jpg)">
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <h2>
+                        <a href="https://atablestory.dk/" title="A Table Story homepage">A Table Story</a>
+                    </h2>
+                    <p>
+                        I had the pleasure of working with Trine and Mette, the girls behind
+                        this lovely company and it was an absolute pleasure. Not only are they
+                        helpful in any random circumstance and making the process of renting
+                        their gorgeous Scandinavian design tableware run smoothly, but they
+                        are always ready to give you tips and tricks for impeccable
+                        tablescapes. And their passion for design and high aesthetics is
+                        visible through every item found in their storage rooms.
+                    </p>
+                    <p>
+                        <a href="https://atablestory.dk/" rel="external" title="A table story homepage">Homepage</a>
+                        ●
+                        <a href="https://www.instagram.com/atablestory/" rel="external" title="A table story instagram Profile">Instagram</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

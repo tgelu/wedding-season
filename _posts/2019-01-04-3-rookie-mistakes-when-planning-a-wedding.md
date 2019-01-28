@@ -4,6 +4,8 @@ excerpt: "We all make mistakes, but some can be anticipated and avoided"
 
 image_url: /img/blog/3-rookie-mistakes-when-planning-a-wedding-editorial.jpg
 image_description: "Floral centerpiece in red hues"
+
+categories: planning-tips
 ---
 
 Happy New Year, peeps! I hope you had a wonderful holiday season filled with
