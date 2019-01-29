@@ -12,8 +12,10 @@ layout: page-wide
     <div class="row">
         <div class="col-xs-12 col-md-7">
             <div class="row latest-row">
-                <div class="col-xs-12 col-md-6 latest-img" style="background-image: url({{ latest.image_url }})">
-                </div>
+                <a class="col-xs-12 col-md-6" href="{{ latest.url }}" title="{{ latest.title }}">
+                    <div class="latest-img" style="background-image: url({{ latest.image_url }})">
+                    </div>
+                </a>
                 <div class="col-xs-12 col-md-6">
                     <h2>
                         <a href="{{ latest.url }}" title="{{ latest.title }}">{{ latest.title }}</a>
@@ -34,9 +36,9 @@ layout: page-wide
             {% assign featured = non_weddings[i] %}
             {% assign featured_category = featured.categories[0] %}
             <div class="row">
-                <div class="col-xs-4 col-lg-3">
+                <a class="col-xs-4 col-lg-3" href="{{ featured.url }}" title="{{ featured.title }}">
                     <img class="featured-img" src="{{ featured.image_url }}" alt="{{ featured.image_description }}">
-                </div>
+                </a>
                 <div class="col-xs-8 col-lg-9">
                     <h3>
                         <a href="{{ featured.url }}" title="{{ featured.title }}">{{ featured.title }}</a>
@@ -63,8 +65,10 @@ layout: page-wide
     <div class="row">
         <div class="col-xs-12 col-md-7">
             <div class="row latest-row">
-                <div class="col-xs-12 col-md-6 latest-img" style="background-image: url({{ latest.image_url }})">
-                </div>
+                <a class="col-xs-12 col-md-6" href="{{ latest.url }}" title="{{ latest.title }}">
+                    <div class="latest-img" style="background-image: url({{ latest.image_url }})">
+                    </div>
+                </a>
                 <div class="col-xs-12 col-md-6">
                     <h2>
                         <a href="{{ latest.url }}" title="{{ latest.title }}">{{ latest.title }}</a>
@@ -85,9 +89,9 @@ layout: page-wide
             {% assign featured = weddings[i] %}
             {% assign featured_category = featured.categories[0] %}
             <div class="row">
-                <div class="col-xs-4 col-lg-3">
+                <a class="col-xs-4 col-lg-3" href="{{ featured.url }}" title="{{ featured.title }}">
                     <img class="featured-img" src="{{ featured.image_url }}" alt="{{ featured.image_description }}">
-                </div>
+                </a>
                 <div class="col-xs-8 col-lg-9">
                     <h3>
                         <a href="{{ featured.url }}" title="{{ featured.title }}">{{ featured.title }}</a>
