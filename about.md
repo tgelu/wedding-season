@@ -39,11 +39,11 @@ take in some inspiration from our
         <div class="photo">
             <img src="/img/about/black-cat.gif" alt="black cat on a book shelf"/>
             <div class="description">Dănilă the cat, 2017. <a href="https://www.instagram.com/explore/tags/d%C4%83nil%C4%83/" target="_blank" rel="external">#dănilă</a>.</div>
-        </div>	
+        </div>
     </div>
 </div>
 <p>My favorite season always changes with the season. In spring it is spring and in winter is, of course, winter. I can't make up my mind for more than 3 months.</p>
-<p>I have been married since 2015 and I had two wedding celebrations - lucky me. You can read all about it in this <a href="/blog/here-comes-the-bride.html">blog post about my own wedding</a>.</p>
+<p>I have been married since 2015 and I had two wedding celebrations - lucky me. You can read all about it in this <a href="{% post_url 2017-12-31-here-comes-the-bride %}">blog post about my own wedding</a>.</p>
 <p>Let's see what else besides my mad love for weddings is worth mentioning.<br/>
     I love to write letters or send cards. I prefer pen (fountain pen) and paper any day over a keyboard.<br/>
     I like to say that I am foodie, but really, I am not. I am scared of any funny looking food. And I am not enjoying seafood, no real foodie would ever make that statement.</p>
