@@ -19,5 +19,13 @@ liquid:
     strict_filters: true
     strict_variables: false
 
+feed:
+    categories:
+        - inspiration
+        - featured-weddings
+        - planning-tips
+        - blog
+
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
