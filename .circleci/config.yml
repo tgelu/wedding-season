@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: jekyll/builder
     environment:
-      - BUNDLE_PATH: ~/repo/vendor/bundle
+      - BUNDLE_PATH: /root/project
     steps:
       - checkout
       - run: bundle check || bundle install
