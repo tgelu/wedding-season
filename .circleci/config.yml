@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: jekyll/builder
+    steps:
+      - checkout
+      - run: jekyll build
