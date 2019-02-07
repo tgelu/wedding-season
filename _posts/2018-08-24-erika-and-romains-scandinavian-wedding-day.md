@@ -38,7 +38,7 @@ The weather was on their side, nature truly shines- with crystal blue water and 
     <div class="col-xs-12">
         <div class="photos">
         {% for i in (1..39) %}
-            <img src="/img/blog/erika-and-romain-s-scandinavian-wedding-day/erika-and-romain-s-scandinavian-wedding-day-{{i}}.jpg" title="" alt=""/>
+            <img src="/img/blog/erika-and-romain-s-scandinavian-wedding-day/erika-and-romain-s-scandinavian-wedding-day-{{i}}.jpg" title="" alt="Erika and Romain's scandinavian wedding day"/>
         {% endfor %}
         </div>
     </div>
