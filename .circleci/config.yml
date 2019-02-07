@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby
+      - image: starefossen/ruby-node:2-8
 
     working_directory: ~/repo
 
