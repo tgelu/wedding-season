@@ -5,4 +5,4 @@ jobs:
       - image: jekyll/builder
     steps:
       - checkout
-      - run: jekyll build
+      - run: pwd && ls && jekyll build
