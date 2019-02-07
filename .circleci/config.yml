@@ -5,4 +5,5 @@ jobs:
       - image: jekyll/jekyll
     steps:
       - checkout
+      - run: bundle check || bundle install
       - run: bundle exec jekyll build
