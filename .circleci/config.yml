@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: jekyll/jekyll
+      - image: jekyll/builder
     steps:
       - checkout
       - run: bundle check || bundle install
