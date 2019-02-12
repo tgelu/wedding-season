@@ -33,13 +33,18 @@ jobs:
      # - run:
      #     name: Test
      #     command: bundle exec htmlproofer ./_site --check-html
+
+      - persist_to_workspace:
+          root: .
+          paths:
+            - _site
   deploy:
     machine:
       enabled: true
     steps:
       - run:
           name: Rsync
-          command: ls -la && pwd && rsync -anzv --delete -e "ssh" ~/repo/_site/ $SSH_USER@$SSH_HOST:/home/$SSH_USER/public_html
+          command: ls -la && pwd && rsync -anzv --delete -e "ssh" _site/ $SSH_USER@$SSH_HOST:/home/$SSH_USER/public_html
 
 workflows:
   version: 2
