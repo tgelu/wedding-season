@@ -30,7 +30,26 @@ jobs:
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
-      
+
      # - run:
      #     name: Test
      #     command: bundle exec htmlproofer ./_site --check-html
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run:
+          name: Rsync
+          command: rsync -anzv --delete -e "ssh" _site/ $SSH_USER@$SSH_HOST:/home/$SSH_USER/public_html
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
