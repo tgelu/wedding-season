@@ -43,10 +43,10 @@ jobs:
       enabled: true
     steps:
       - attach_workspace:
-          at: site
+          at: workspace
       - run:
           name: Rsync
-          command: ls -la && pwd && rsync -anzv --delete -e "ssh" site/ $SSH_USER@$SSH_HOST:/home/$SSH_USER/public_html
+          command: rsync -anzv --delete -e "ssh" workspace/_site/ $SSH_USER@$SSH_HOST:/home/$SSH_USER/public_html
 
 workflows:
   version: 2
