@@ -14,18 +14,17 @@ jobs:
 
       - restore_cache:
           keys:
-            - v3-dependencies-{{ checksum "Gemfile.lock" }}
-            - v3-dependencies-
+            - v4-dependencies-{{ checksum "Gemfile.lock" }}
+            - v4-dependencies-
 
       - run:
           name: Ruby dependencies
-          command: bundle install
+          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
 
       - save_cache:
           paths:
-            - /usr/local/bundle
-            - /usr/local/lib/node_modules
-          key: v3-dependencies-{{ checksum "Gemfile.lock" }}
+            - vendor/bundle
+          key: v4-dependencies-{{ checksum "Gemfile.lock" }}
 
       - run:
           name: Build
