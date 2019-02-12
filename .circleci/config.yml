@@ -39,7 +39,7 @@ jobs:
     steps:
       - run:
           name: Rsync
-          command: rsync -anzv --delete -e "ssh" _site/ $SSH_USER@$SSH_HOST:/home/$SSH_USER/public_html
+          command: rsync -anzv --delete -e "ssh" ~/repo/_site/ $SSH_USER@$SSH_HOST:/home/$SSH_USER/public_html
 
 workflows:
   version: 2
