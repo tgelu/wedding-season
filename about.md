@@ -15,7 +15,7 @@ you want to learn more about who we are and how can we help you.
 
 {% include divider.html %}
 
-## Meet Alexa
+## Alexa
 
 I think it is important to know the person behind the company, or to just get a
 first peek before taking any big decisions. I will start, but do say hello on
