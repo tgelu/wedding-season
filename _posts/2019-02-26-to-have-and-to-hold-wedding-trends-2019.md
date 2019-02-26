@@ -1,11 +1,13 @@
 ---
 title: "To Have and To Hold: Wedding Trends 2019"
-excerpt: ""
+excerpt: "There is nothing more risky in a post than trying to predict trends,
+but I will be bold and have a take at it for 2019 knowing that the worst outcome
+will be a collection of beautiful unpopular trends."
 
 image_url: /img/blog/to-have-and-to-hold-wedding-trends-2019.jpg
-image_description: ""
+image_description: "Wedding lounge with macrame wall and Moroccan poufs"
 
-categories: planning-tips
+categories: inspiration
 ---
 
 {% include blog_photo.html
@@ -45,9 +47,8 @@ these areas, such as low seating, carpets, cushions and a myriad of lights.
 
 {% include blog_photo.html
 title="Wedding Lounge Area"
-description="Outdoor lounge with sofas, chairs, poufs, and carpets"
-credit_name="Paige Jones Photography" credit_url="http://paigejones.us/"
-extra_credit="Design by" extra_credit_name="Banks and Leaf" extra_credit_url="http://www.banksandleaf.com/"
+description="Outdoor lounge with sofas, chairs, and carpets"
+credit_name="Pretty Vintage Rentals" credit_url="https://www.instagram.com/prettyvintagerentals/"
 %}
 
 ## Bold Colors
