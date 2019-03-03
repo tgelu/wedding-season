@@ -2,6 +2,8 @@
 *.swo
 
 node_modules/
+vendor/
+.bundle/
 
 .jekyll-metadata
 _site/
