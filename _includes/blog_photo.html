@@ -5,8 +5,10 @@
             <div class="description">
 
                 {{ include.title }}.
+                {% if include.credit_name %}
                 Photo from
                 <a href="{{ include.credit_url }}" target="_blank" title="{{ include.credit_name }}" rel="external">{{ include.credit_name }}</a>.
+                {% endif %}
 
                 {% if include.extra_credit %}
                 {{ include.extra_credit }}
