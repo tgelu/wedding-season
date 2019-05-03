@@ -2,8 +2,8 @@
 title: "Spring is All You Need. Hannah and James' Wedding Day"
 excerpt: "There is no doubt about the popularity of spring weddings, but who can
 point to why is it so? Is it the flowers, the weather, the optimism of the
-season? Enjoy a prime example of such a wedding and mahbe you'll be persuaded
-it's the flowers... or the weather... or the optimism of the season."
+season? Enjoy Hannah and James' wedding day and maybe you'll be persuaded
+it's all about the flowers... or the weather... or the optimism of the season"
 
 image_url: /img/blog/spring-is-all-you-need-hannah-and-james-wedding-day.jpg
 image_description: "Bride and Groom with bridesmaids and groomsmen posing after wedding"
