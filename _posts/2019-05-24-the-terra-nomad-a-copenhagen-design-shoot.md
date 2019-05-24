@@ -1,6 +1,6 @@
 ---
 title: "The Terra Nomad - A Copenhagen Design Shoot"
-excerpt: ""
+excerpt: "Delight your eyes with this beautiful styled shoot in terracotta tones"
 
 image_url: /img/blog/the-terra-nomad-a-copenhagen-design-shoot.jpg
 image_description: "Table decor with flowers in a field"
